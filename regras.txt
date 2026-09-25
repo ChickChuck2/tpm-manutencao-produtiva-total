@@ -1,0 +1,687 @@
+# SISTEMA DE REGRAS — APRESENTAÇÃO HTML PROFISSIONAL
+
+Você é responsável por criar uma apresentação profissional em HTML, CSS e JavaScript.
+
+A apresentação deve possuir estética editorial, técnica, minimalista e sofisticada, adequada principalmente a temas industriais, tecnológicos, acadêmicos e profissionais.
+
+O resultado NÃO deve parecer um site comum, dashboard, landing page ou template genérico de PowerPoint.
+
+Cada slide deve parecer uma página cuidadosamente projetada de uma apresentação profissional.
+
+==================================================
+1. PRINCÍPIO VISUAL FUNDAMENTAL
+==================================================
+
+Priorize:
+
+- simplicidade;
+- hierarquia visual;
+- legibilidade;
+- equilíbrio;
+- espaço negativo;
+- tipografia forte;
+- imagens relevantes;
+- composição assimétrica;
+- consistência visual;
+- aparência editorial/técnica.
+- explicação simples para alunos tecnicos
+
+NÃO tente colocar o máximo possível de informação em cada slide.
+
+Um slide deve comunicar uma ideia principal.
+
+Se o conteúdo for grande demais para um slide, DIVIDA O CONTEÚDO.
+
+Nunca reduza excessivamente o tamanho da fonte para fazer conteúdo caber.
+
+É preferível ter 20 slides limpos do que 10 slides congestionados.
+
+==================================================
+2. REFERÊNCIA VISUAL
+==================================================
+
+A linguagem visual deve seguir aproximadamente esta direção:
+
+- composição editorial;
+- aparência industrial;
+- minimalismo;
+- grandes áreas de respiro;
+- blocos assimétricos;
+- fundo claro ou escuro conforme o contexto;
+- fotografias grandes;
+- títulos grandes e fortes;
+- textos curtos;
+- pequenos identificadores de seção;
+- linhas e detalhes geométricos discretos;
+- paleta cromática controlada;
+- poucos elementos por slide.
+
+Uma composição semelhante a:
+
+┌──────────────────────────┬──────────────────────┐
+│                          │                      │
+│  01 / INTRODUÇÃO         │                      │
+│                          │                      │
+│  O QUE É A TPM?          │      IMAGEM          │
+│                          │      INDUSTRIAL      │
+│  ─────                   │                      │
+│                          │                      │
+│  Texto introdutório      │                      │
+│                          │                      │
+│  Segundo bloco curto     │                      │
+│                          │                      │
+└──────────────────────────┴──────────────────────┘
+
+é uma referência de composição.
+
+NÃO copiar literalmente essa estrutura para todos os slides.
+
+A composição deve variar conforme a natureza do conteúdo, mantendo a mesma identidade visual.
+
+==================================================
+3. DESIGN EDITORIAL
+==================================================
+
+Os slides devem possuir aparência de publicação técnica/editorial.
+
+Utilizar:
+
+- títulos grandes;
+- subtítulos discretos;
+- labels pequenos;
+- divisórias finas;
+- números de seção;
+- espaços vazios;
+- fotografias contextualizadas;
+- alinhamentos rigorosos.
+
+Evitar:
+
+- excesso de cards;
+- excesso de bordas;
+- excesso de sombras;
+- excesso de ícones;
+- gradientes chamativos;
+- elementos flutuando sem propósito;
+- aparência de dashboard;
+- aparência de site corporativo genérico.
+
+Não transformar cada informação em um card.
+
+Cards devem existir somente quando a informação realmente exigir agrupamento visual.
+
+==================================================
+4. PALETA DE CORES
+==================================================
+
+Criar uma paleta global antes de construir os slides.
+
+Definir:
+
+--color-background
+--color-surface
+--color-primary
+--color-secondary
+--color-accent
+--color-text
+--color-text-muted
+--color-border
+
+Utilizar poucas cores.
+
+A paleta deve combinar com o tema da apresentação.
+
+Para temas industriais, uma direção possível é:
+
+- azul petróleo;
+- azul aço;
+- cinza industrial;
+- branco quebrado;
+- preto/carvão;
+- uma cor de destaque utilizada com extrema moderação.
+
+NÃO utilizar azul em excesso apenas porque o tema é industrial.
+
+A paleta deve possuir função visual e semântica.
+
+Manter a mesma identidade cromática durante toda a apresentação.
+
+==================================================
+5. TIPOGRAFIA
+==================================================
+
+Utilizar no máximo duas famílias tipográficas.
+
+Preferencialmente:
+
+- uma fonte sans-serif altamente legível para o corpo;
+- uma fonte mais forte/condensada para títulos, quando apropriado.
+
+Os títulos devem possuir presença visual.
+
+Utilizar hierarquia clara:
+
+LABEL
+↓
+TÍTULO
+↓
+SUBTÍTULO
+↓
+CORPO
+↓
+LEGENDA
+
+Não utilizar fontes decorativas.
+
+Não utilizar dezenas de pesos diferentes.
+
+Não utilizar texto excessivamente pequeno.
+
+==================================================
+6. IMAGENS — REGRA OBRIGATÓRIA
+==================================================
+
+Quando uma imagem contribuir para a compreensão do conteúdo, o agente DEVE procurar uma imagem adequada na Internet.
+
+As imagens não devem ser escolhidas aleatoriamente.
+
+Para cada imagem, analisar:
+
+1. relação direta com o assunto;
+2. qualidade visual;
+3. resolução;
+4. composição;
+5. iluminação;
+6. coerência com a paleta;
+7. possibilidade de recorte;
+8. legibilidade quando combinada com texto.
+
+Priorizar fontes de imagens que permitam uso apropriado, como:
+
+- Unsplash;
+- Pexels;
+- Wikimedia Commons;
+- outras fontes com licença adequada.
+
+Evitar imagens genéricas apenas para preencher espaço.
+
+Exemplo:
+
+Se o slide fala sobre manutenção industrial:
+
+NÃO usar uma fotografia genérica de uma pessoa usando capacete.
+
+Preferir uma fotografia que mostre efetivamente:
+
+- manutenção de máquinas;
+- inspeção;
+- equipamentos industriais;
+- operadores;
+- componentes;
+- linhas de produção;
+- ambiente fabril.
+
+==================================================
+7. TRATAMENTO DAS IMAGENS
+==================================================
+
+Imagens devem ser tratadas como elementos de composição.
+
+Utilizar:
+
+object-fit: cover;
+
+quando o objetivo for preencher uma área.
+
+Nunca distorcer imagens.
+
+Utilizar aspect-ratio quando apropriado.
+
+Permitir:
+
+- crop;
+- enquadramento;
+- máscara;
+- overlay;
+- contraste;
+- posicionamento focal.
+
+Evitar filtros exagerados.
+
+Se o texto estiver sobre uma imagem, garantir contraste adequado através de overlay ou composição apropriada.
+
+==================================================
+8. RESPONSIVIDADE — REGRA CRÍTICA
+==================================================
+
+A apresentação será executada em HTML.
+
+Portanto, NÃO projetar os slides para uma resolução fixa.
+
+NUNCA utilizar uma abordagem baseada exclusivamente em:
+
+- width: 1920px;
+- height: 1080px;
+- posições absolutas rígidas;
+- coordenadas fixas;
+- tamanhos fixos incompatíveis com diferentes telas.
+
+O layout deve ser verdadeiramente responsivo.
+
+Deve funcionar em:
+
+- desktop;
+- notebook;
+- tablet;
+- Android;
+- celulares pequenos;
+- telas ultrawide;
+- telas 16:9;
+- telas 16:10;
+- telas 4:3;
+- orientação portrait;
+- orientação landscape.
+
+==================================================
+9. ESCALABILIDADE
+==================================================
+
+Utilizar CSS moderno:
+
+- CSS Grid;
+- Flexbox;
+- clamp();
+- min();
+- max();
+- minmax();
+- aspect-ratio;
+- container queries quando apropriado;
+- media queries;
+- unidades relativas;
+- CSS variables.
+
+Exemplo de abordagem:
+
+font-size: clamp(1.8rem, 4vw, 4.5rem);
+
+e não:
+
+font-size: 64px;
+
+O conteúdo deve crescer e diminuir proporcionalmente conforme o viewport.
+
+==================================================
+10. ADAPTAÇÃO DINÂMICA
+==================================================
+
+O layout deve se reorganizar conforme o espaço disponível.
+
+Desktop:
+
+┌───────────────┬───────────────┐
+│ TEXTO         │ IMAGEM        │
+│               │               │
+└───────────────┴───────────────┘
+
+Mobile:
+
+┌───────────────────────────────┐
+│ TÍTULO                        │
+│ TEXTO                         │
+├───────────────────────────────┤
+│                               │
+│ IMAGEM                        │
+│                               │
+└───────────────────────────────┘
+
+OU, quando apropriado:
+
+┌───────────────────────────────┐
+│ IMAGEM                        │
+├───────────────────────────────┤
+│ TÍTULO                        │
+│ TEXTO                         │
+└───────────────────────────────┘
+
+A ordem dos elementos pode mudar conforme a resolução.
+
+NÃO simplesmente reduzir tudo.
+
+REORGANIZE.
+
+==================================================
+11. MOBILE / ANDROID
+==================================================
+
+Em telas pequenas:
+
+- reduzir quantidade de elementos simultâneos;
+- aumentar legibilidade;
+- reduzir textos;
+- reorganizar colunas em linhas;
+- reposicionar imagens;
+- remover elementos decorativos secundários;
+- preservar títulos;
+- preservar informação essencial.
+
+Nunca deixar:
+
+- texto cortado;
+- elementos sobrepostos;
+- imagem esmagada;
+- botão inacessível;
+- conteúdo fora da viewport;
+- scrollbar horizontal;
+- títulos quebrados de maneira grotesca.
+
+==================================================
+12. ORGANIZAÇÃO DINÂMICA DO CONTEÚDO
+==================================================
+
+O layout deve ser escolhido de acordo com o TIPO de conteúdo.
+
+Não utilizar o mesmo template em todos os slides.
+
+Para DEFINIÇÕES:
+
+Título + explicação curta + imagem contextual.
+
+Para LISTAS:
+
+Título + grupos de informações organizados visualmente.
+
+Para PROCESSOS:
+
+Fluxograma ou sequência visual.
+
+Para CRONOLOGIAS:
+
+Timeline.
+
+Para COMPARAÇÕES:
+
+Composição lado a lado.
+
+Para INDICADORES:
+
+Número grande + explicação curta.
+
+Para FÓRMULAS:
+
+Fórmula em destaque + significado das variáveis.
+
+Para PILARES:
+
+Composição estrutural/radial ou conjunto organizado de elementos.
+
+Para EXEMPLOS:
+
+Situação → problema → análise → resultado.
+
+Para CONCLUSÕES:
+
+Poucos elementos + mensagem principal.
+
+==================================================
+13. DENSIDADE DE INFORMAÇÃO
+==================================================
+
+Estabelecer uma densidade máxima por slide.
+
+Evitar:
+
+- mais de uma ideia principal;
+- grandes blocos de texto;
+- listas gigantes;
+- dezenas de elementos independentes.
+
+Transformar informação textual em representação visual sempre que possível.
+
+Exemplo:
+
+NÃO:
+
+"Os principais objetivos da TPM são aumentar a disponibilidade,
+reduzir falhas, reduzir custos, melhorar qualidade..."
+
+PREFERIR:
+
+┌──────────────┐
+│ DISPONIBIL.  │
+└──────────────┘
+
+┌──────────────┐
+│ QUALIDADE    │
+└──────────────┘
+
+┌──────────────┐
+│ PRODUTIVIDADE│
+└──────────────┘
+
+com uma composição visual limpa.
+
+==================================================
+14. ESPAÇO NEGATIVO
+==================================================
+
+Não preencher espaços vazios sem necessidade.
+
+Espaço vazio é parte do design.
+
+Manter margens generosas.
+
+Não encostar:
+
+- títulos;
+- textos;
+- imagens;
+- bordas;
+- elementos decorativos.
+
+O slide deve respirar.
+
+==================================================
+15. GRID
+==================================================
+
+Todos os elementos devem obedecer a um sistema de grid.
+
+Manter:
+
+- margens consistentes;
+- alinhamento vertical;
+- alinhamento horizontal;
+- espaçamento consistente;
+- proporções coerentes.
+
+Não posicionar elementos aleatoriamente com valores absolutos.
+
+==================================================
+16. ELEMENTOS DECORATIVOS
+==================================================
+
+Elementos decorativos devem ser discretos.
+
+Podem incluir:
+
+- linhas;
+- pequenos marcadores;
+- números;
+- divisórias;
+- pequenos blocos geométricos;
+- indicadores de seção.
+
+Não utilizar decoração apenas para "deixar bonito".
+
+Todo elemento visual deve possuir propósito.
+
+==================================================
+17. ANIMAÇÕES
+==================================================
+
+Utilizar animações discretas.
+
+Preferir:
+
+- fade;
+- subtle slide;
+- scale muito leve.
+
+Evitar:
+
+- bounce;
+- rotate;
+- efeitos exagerados;
+- animações rápidas;
+- transições diferentes em cada slide.
+
+A apresentação deve parecer profissional, não um brinquedo em HTML.
+
+==================================================
+18. NAVEGAÇÃO
+==================================================
+
+A apresentação deve permitir navegação simples.
+
+Suportar:
+
+- teclado;
+- mouse;
+- touch;
+- swipe no Android.
+
+No celular, a interação deve ser confortável.
+
+Não depender exclusivamente de hover.
+
+==================================================
+19. ESTRUTURA TÉCNICA HTML
+==================================================
+
+Separar claramente:
+
+HTML
+→ estrutura semântica.
+
+CSS
+→ aparência e responsividade.
+
+JavaScript
+→ navegação, interação e comportamento.
+
+Utilizar CSS Variables para cores, espaçamentos e parâmetros globais.
+
+Evitar estilos inline desnecessários.
+
+Evitar código duplicado.
+
+Criar componentes reutilizáveis quando apropriado.
+
+==================================================
+20. SLIDE COMO VIEWPORT
+==================================================
+
+Cada slide deve funcionar como uma unidade visual independente.
+
+Não permitir que o conteúdo de um slide invada outro.
+
+Não permitir overflow inesperado.
+
+Utilizar estratégias responsivas para controlar:
+
+- altura;
+- largura;
+- overflow;
+- tipografia;
+- espaçamento.
+
+O conteúdo deve permanecer acessível mesmo em telas menores.
+
+==================================================
+21. QUALIDADE VISUAL
+==================================================
+
+Antes de considerar um slide concluído, verificar:
+
+[ ] Existe uma ideia principal clara?
+[ ] O título possui hierarquia?
+[ ] Existe espaço negativo suficiente?
+[ ] O slide está visualmente equilibrado?
+[ ] A imagem realmente acrescenta algo?
+[ ] A paleta está consistente?
+[ ] A tipografia está consistente?
+[ ] O conteúdo está legível?
+[ ] Não existem elementos redundantes?
+[ ] Não existem elementos desalinhados?
+[ ] O slide funciona em desktop?
+[ ] O slide funciona em Android?
+[ ] O slide funciona em portrait?
+[ ] O slide funciona em landscape?
+[ ] Não existe overflow horizontal?
+[ ] Nenhum conteúdo foi cortado?
+[ ] O layout se reorganiza adequadamente?
+[ ] O slide mantém identidade visual com os demais?
+
+==================================================
+22. REGRA DE OURO
+==================================================
+
+NÃO FAÇA UM SITE.
+
+FAÇA UMA APRESENTAÇÃO.
+
+A interface deve desaparecer atrás do conteúdo.
+
+O usuário deve perceber:
+
+"Estou vendo uma apresentação profissional."
+
+e não:
+
+"Estou vendo uma página HTML com vários elementos."
+
+==================================================
+23. REGRA FINAL DE COMPOSIÇÃO
+==================================================
+
+Quando houver dúvida entre:
+
+MAIS ELEMENTOS
+versus
+MENOS ELEMENTOS,
+
+preferir MENOS ELEMENTOS.
+
+Quando houver dúvida entre:
+
+MAIS TEXTO
+versus
+TEXTO MAIS CONCISO,
+
+preferir TEXTO MAIS CONCISO.
+
+Quando houver dúvida entre:
+
+REDUZIR A FONTE
+versus
+DIVIDIR O SLIDE,
+
+DIVIDIR O SLIDE.
+
+Quando houver dúvida entre:
+
+DECORAÇÃO
+versus
+ESPAÇO NEGATIVO,
+
+preferir ESPAÇO NEGATIVO.
+
+Quando houver dúvida entre:
+
+TEMPLATE FIXO
+versus
+COMPOSIÇÃO ADAPTADA AO CONTEÚDO,
+
+preferir COMPOSIÇÃO ADAPTADA AO CONTEÚDO.
+
+O resultado final deve ser minimalista, técnico, elegante, responsivo, escalável e visualmente consistente.
