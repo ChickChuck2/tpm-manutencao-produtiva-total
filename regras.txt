@@ -62,7 +62,7 @@ Uma composição semelhante a:
 │                          │                      │
 │  01 / INTRODUÇÃO         │                      │
 │                          │                      │
-│  O QUE É A TPM?          │      IMAGEM          │
+│  O QUE É A MPT?          │      IMAGEM          │
 │                          │      INDUSTRIAL      │
 │  ─────                   │                      │
 │                          │                      │
@@ -441,7 +441,7 @@ Exemplo:
 
 NÃO:
 
-"Os principais objetivos da TPM são aumentar a disponibilidade,
+"Os principais objetivos da MPT são aumentar a disponibilidade,
 reduzir falhas, reduzir custos, melhorar qualidade..."
 
 PREFERIR:

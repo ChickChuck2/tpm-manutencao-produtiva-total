@@ -1,12 +1,12 @@
-MANUTENÇÃO PRODUTIVA TOTAL (TPM)
+﻿MANUTENÇÃO PRODUTIVA TOTAL (MPT)
 1. Introdução
-A Manutenção Produtiva Total, conhecida pela sigla TPM, do inglês Total Productive Maintenance, é uma metodologia de gestão voltada para a melhoria da eficiência dos equipamentos e dos processos produtivos. Seu principal objetivo é reduzir perdas, falhas, paradas e desperdícios, aumentando a produtividade e a qualidade da produção.
+A Manutenção Produtiva Total, conhecida pela sigla MPT, do inglês Total Productive Maintenance, é uma metodologia de gestão voltada para a melhoria da eficiência dos equipamentos e dos processos produtivos. Seu principal objetivo é reduzir perdas, falhas, paradas e desperdícios, aumentando a produtividade e a qualidade da produção.
 
-A TPM surgiu no Japão, especialmente no contexto de desenvolvimento das práticas de gestão industrial após a Segunda Guerra Mundial. A metodologia evoluiu a partir de práticas de manutenção preventiva e passou a envolver não apenas o setor de manutenção, mas também operadores, supervisores, gestores e demais áreas da organização.
+A MPT surgiu no Japão, especialmente no contexto de desenvolvimento das práticas de gestão industrial após a Segunda Guerra Mundial. A metodologia evoluiu a partir de práticas de manutenção preventiva e passou a envolver não apenas o setor de manutenção, mas também operadores, supervisores, gestores e demais áreas da organização.
 
-Uma das principais características da TPM é a compreensão de que a responsabilidade pelo bom funcionamento dos equipamentos não deve ser exclusivamente do departamento de manutenção. Os operadores também participam da conservação das máquinas, realizando atividades como limpeza, inspeção, lubrificação e identificação de anormalidades.
+Uma das principais características da MPT é a compreensão de que a responsabilidade pelo bom funcionamento dos equipamentos não deve ser exclusivamente do departamento de manutenção. Os operadores também participam da conservação das máquinas, realizando atividades como limpeza, inspeção, lubrificação e identificação de anormalidades.
 
-Dessa maneira, a TPM procura criar uma cultura de prevenção, na qual os problemas sejam identificados e tratados antes que provoquem falhas, perdas de produção ou acidentes.
+Dessa maneira, a MPT procura criar uma cultura de prevenção, na qual os problemas sejam identificados e tratados antes que provoquem falhas, perdas de produção ou acidentes.
 
 2. Conceito de Manutenção Produtiva Total
 A Manutenção Produtiva Total pode ser definida como um sistema de gestão da manutenção que busca maximizar a eficiência global dos equipamentos durante todo o seu ciclo de vida, por meio da participação de diferentes setores da empresa.
@@ -19,22 +19,22 @@ Eficiência total: busca-se aproveitar ao máximo a capacidade dos equipamentos,
 
 Ciclo de vida total: as condições de manutenção e confiabilidade são consideradas desde a instalação e utilização até a substituição do equipamento.
 
-A TPM possui uma forte relação com a melhoria contínua. Em vez de agir somente quando uma máquina quebra, procura-se identificar as causas dos problemas e estabelecer ações para impedir que eles voltem a acontecer.
+A MPT possui uma forte relação com a melhoria contínua. Em vez de agir somente quando uma máquina quebra, procura-se identificar as causas dos problemas e estabelecer ações para impedir que eles voltem a acontecer.
 
-Portanto, a TPM apresenta uma mudança de comportamento: a manutenção deixa de ser vista somente como uma atividade corretiva e passa a ser considerada parte da estratégia de produção.
+Portanto, a MPT apresenta uma mudança de comportamento: a manutenção deixa de ser vista somente como uma atividade corretiva e passa a ser considerada parte da estratégia de produção.
 
-3. Histórico da TPM
-A TPM desenvolveu-se no Japão durante o período de crescimento da indústria japonesa. A metodologia possui forte relação com práticas de manutenção preventiva e com conceitos desenvolvidos pela indústria japonesa ao longo do século XX.
+3. Histórico da MPT
+A MPT desenvolveu-se no Japão durante o período de crescimento da indústria japonesa. A metodologia possui forte relação com práticas de manutenção preventiva e com conceitos desenvolvidos pela indústria japonesa ao longo do século XX.
 
-Um dos principais nomes relacionados à estruturação e disseminação da TPM é Seiichi Nakajima, que contribuiu para organizar seus conceitos e métodos.
+Um dos principais nomes relacionados à estruturação e disseminação da MPT é Seiichi Nakajima, que contribuiu para organizar seus conceitos e métodos.
 
 Inicialmente, muitas empresas trabalhavam principalmente com manutenção corretiva. Nesse modelo, o equipamento era utilizado até apresentar uma falha e, posteriormente, era realizada uma intervenção.
 
 Com o desenvolvimento da manutenção preventiva, as empresas passaram a realizar intervenções planejadas em determinados períodos. Entretanto, percebeu-se que somente a manutenção preventiva não era suficiente para eliminar todas as perdas.
 
-A TPM ampliou essa abordagem ao envolver os operadores e buscar a eliminação sistemática das perdas existentes nos equipamentos e nos processos produtivos.
+A MPT ampliou essa abordagem ao envolver os operadores e buscar a eliminação sistemática das perdas existentes nos equipamentos e nos processos produtivos.
 
-4. Objetivos da TPM
+4. Objetivos da MPT
 Os principais objetivos da Manutenção Produtiva Total são:
 
 Aumentar a disponibilidade dos equipamentos.
@@ -63,11 +63,11 @@ Melhorar continuamente os processos produtivos.
 
 O objetivo final não é simplesmente realizar mais manutenção, mas obter o máximo desempenho possível dos equipamentos com o menor nível de perdas.
 
-5. Os oito pilares da TPM
-A TPM é tradicionalmente estruturada em oito pilares. Cada um possui uma função específica para alcançar a eficiência dos equipamentos e dos processos.
+5. Os oito pilares da MPT
+A MPT é tradicionalmente estruturada em oito pilares. Cada um possui uma função específica para alcançar a eficiência dos equipamentos e dos processos.
 
 5.1 Manutenção Autônoma
-A manutenção autônoma é um dos elementos mais importantes da TPM.
+A manutenção autônoma é um dos elementos mais importantes da MPT.
 
 Ela permite que os operadores assumam determinadas responsabilidades relacionadas à conservação básica dos equipamentos.
 
@@ -154,7 +154,7 @@ Não existe um procedimento definido de inspeção.
 Nesse caso, a solução não é apenas reparar o motor. É necessário eliminar a causa que provoca o problema.
 
 5.4 Educação e Treinamento
-A TPM depende da capacitação das pessoas.
+A MPT depende da capacitação das pessoas.
 
 Os funcionários precisam conhecer:
 
@@ -222,8 +222,8 @@ para:
 
 "manter o processo em condições que favoreçam a produção correta desde o início".
 
-5.7 TPM Administrativo
-A TPM também pode ser aplicada aos setores administrativos.
+5.7 MPT Administrativo
+A MPT também pode ser aplicada aos setores administrativos.
 
 Embora os departamentos administrativos não tenham necessariamente máquinas de produção, eles também possuem processos que podem apresentar perdas.
 
@@ -269,7 +269,7 @@ Promover uma cultura de segurança.
 Uma máquina que funciona corretamente também pode apresentar menor risco de acidentes, especialmente quando suas proteções e dispositivos de segurança são mantidos adequadamente.
 
 6. As seis grandes perdas
-A TPM tradicionalmente trabalha com seis grandes categorias de perdas relacionadas aos equipamentos.
+A MPT tradicionalmente trabalha com seis grandes categorias de perdas relacionadas aos equipamentos.
 
 6.1 Perdas por quebra
 Acontecem quando o equipamento deixa de funcionar total ou parcialmente devido a uma falha.
@@ -338,7 +338,7 @@ Testes.
 Produção de peças fora da especificação.
 
 7. OEE — Eficiência Global dos Equipamentos
-Um dos principais indicadores associados à TPM é o OEE — Overall Equipment Effectiveness, ou Eficiência Global dos Equipamentos.
+Um dos principais indicadores associados à MPT é o OEE — Overall Equipment Effectiveness, ou Eficiência Global dos Equipamentos.
 
 O OEE considera três fatores:
 
@@ -382,8 +382,8 @@ Esse resultado indica que, considerando conjuntamente disponibilidade, performan
 
 É importante observar que o OEE é principalmente uma ferramenta de diagnóstico e melhoria. Seu valor deve ser analisado de acordo com o processo, equipamento e critérios utilizados pela empresa.
 
-8. Tipos de manutenção relacionados à TPM
-A TPM pode utilizar diferentes estratégias de manutenção.
+8. Tipos de manutenção relacionados à MPT
+A MPT pode utilizar diferentes estratégias de manutenção.
 
 8.1 Manutenção corretiva
 É realizada depois que ocorre uma falha.
@@ -427,8 +427,8 @@ Está relacionada à identificação de falhas que podem permanecer ocultas dura
 
 Por exemplo, um dispositivo de emergência pode não ser utilizado normalmente. Portanto, é necessário verificar periodicamente se ele realmente funciona quando necessário.
 
-9. Implantação da TPM
-A implantação da TPM deve ser planejada. Não basta simplesmente determinar que os operadores realizem algumas tarefas de limpeza.
+9. Implantação da MPT
+A implantação da MPT deve ser planejada. Não basta simplesmente determinar que os operadores realizem algumas tarefas de limpeza.
 
 Uma possível sequência de implantação é:
 
@@ -436,7 +436,7 @@ Uma possível sequência de implantação é:
 A liderança precisa compreender e apoiar a metodologia.
 
 2. Capacitação
-Os funcionários devem receber treinamento sobre TPM, equipamentos e ferramentas de melhoria.
+Os funcionários devem receber treinamento sobre MPT, equipamentos e ferramentas de melhoria.
 
 3. Escolha de uma área-piloto
 Pode-se iniciar em uma máquina ou setor específico para testar a metodologia.
@@ -469,7 +469,7 @@ Os resultados devem ser acompanhados para verificar se as ações realmente prod
 9. Melhoria contínua
 Após os resultados iniciais, novas oportunidades de melhoria são identificadas.
 
-10. Indicadores utilizados na TPM
+10. Indicadores utilizados na MPT
 Além do OEE, diversos indicadores podem ser utilizados.
 
 MTBF — Mean Time Between Failures
@@ -498,7 +498,7 @@ Avalia a proporção de produtos que atendem às especificações.
 Número de paradas
 Permite identificar equipamentos que apresentam elevada frequência de interrupções.
 
-11. Exemplo prático de aplicação da TPM
+11. Exemplo prático de aplicação da MPT
 Considere uma indústria que possui uma máquina responsável por uma etapa importante da produção.
 
 A empresa percebe que a máquina apresenta várias paradas durante o mês.
@@ -513,7 +513,7 @@ Após a análise dos dados, verifica-se que:
 
 15% estão relacionadas a outros motivos.
 
-A equipe decide aplicar a TPM.
+A equipe decide aplicar a MPT.
 
 Primeiramente, os operadores recebem treinamento para realizar inspeções básicas.
 
@@ -537,10 +537,10 @@ Melhoria da qualidade.
 
 Redução do retrabalho.
 
-Esse exemplo demonstra que a TPM não consiste em uma ação isolada. Trata-se de um processo contínuo de identificação, análise e eliminação de perdas.
+Esse exemplo demonstra que a MPT não consiste em uma ação isolada. Trata-se de um processo contínuo de identificação, análise e eliminação de perdas.
 
-12. Vantagens da TPM
-A implementação adequada da TPM pode proporcionar diversos benefícios.
+12. Vantagens da MPT
+A implementação adequada da MPT pode proporcionar diversos benefícios.
 
 Entre eles:
 
@@ -568,10 +568,10 @@ Melhoria da segurança.
 
 Redução de desperdícios.
 
-Além dos benefícios diretamente relacionados à manutenção, a TPM pode contribuir para mudanças culturais dentro da empresa.
+Além dos benefícios diretamente relacionados à manutenção, a MPT pode contribuir para mudanças culturais dentro da empresa.
 
 13. Desafios e dificuldades
-Apesar dos benefícios, a implantação da TPM pode apresentar dificuldades.
+Apesar dos benefícios, a implantação da MPT pode apresentar dificuldades.
 
 Uma das principais é a resistência à mudança. Alguns funcionários podem entender inicialmente que determinadas atividades não fazem parte de suas responsabilidades.
 
@@ -593,10 +593,10 @@ Falta de acompanhamento.
 
 Foco excessivo em resultados imediatos.
 
-Por isso, a TPM deve ser implementada como uma mudança de sistema de gestão e não apenas como um programa temporário.
+Por isso, a MPT deve ser implementada como uma mudança de sistema de gestão e não apenas como um programa temporário.
 
-14. TPM e melhoria contínua
-A melhoria contínua é fundamental para a TPM.
+14. MPT e melhoria contínua
+A melhoria contínua é fundamental para a MPT.
 
 Depois que uma falha é corrigida, a empresa deve perguntar:
 
@@ -618,12 +618,12 @@ O ciclo pode ser repetido continuamente.
 
 Assim, a empresa não deve considerar que o processo de manutenção terminou após o reparo de uma máquina. O reparo resolve o problema imediato; a melhoria procura impedir sua repetição.
 
-15. Relação entre TPM, produção e qualidade
-A TPM aproxima os setores de manutenção e produção.
+15. Relação entre MPT, produção e qualidade
+A MPT aproxima os setores de manutenção e produção.
 
 Em modelos tradicionais, pode existir uma separação entre esses departamentos. A produção busca produzir e a manutenção é chamada quando ocorre um problema.
 
-Na TPM, existe maior integração.
+Na MPT, existe maior integração.
 
 O operador contribui para identificar anormalidades, a manutenção analisa tecnicamente os problemas e a gestão acompanha os indicadores.
 
@@ -631,7 +631,7 @@ A qualidade também participa desse processo, pois condições inadequadas dos e
 
 Dessa forma, manutenção, produção e qualidade trabalham de maneira integrada para reduzir perdas.
 
-16. TPM e segurança
+16. MPT e segurança
 A manutenção inadequada pode contribuir para riscos de acidentes.
 
 Equipamentos com:
@@ -648,12 +648,12 @@ Dispositivos de emergência sem funcionamento.
 
 podem representar riscos aos trabalhadores.
 
-Por isso, a TPM inclui segurança como um dos seus pilares.
+Por isso, a MPT inclui segurança como um dos seus pilares.
 
 É importante destacar que a busca por produtividade não deve eliminar ou reduzir medidas de segurança. O funcionamento adequado dos equipamentos deve estar associado à proteção das pessoas.
 
-17. TPM no contexto da Indústria 4.0
-Com o avanço da Indústria 4.0, novas tecnologias podem complementar as práticas de TPM.
+17. MPT no contexto da Indústria 4.0
+Com o avanço da Indústria 4.0, novas tecnologias podem complementar as práticas de MPT.
 
 Alguns exemplos são:
 
@@ -679,10 +679,10 @@ Se os dados indicarem uma alteração significativa, o sistema pode gerar um ale
 
 Assim, a empresa pode programar uma intervenção antes que aconteça uma falha grave.
 
-A tecnologia, porém, não substitui os princípios fundamentais da TPM. Ela funciona como uma ferramenta para melhorar a capacidade de monitoramento, análise e tomada de decisão.
+A tecnologia, porém, não substitui os princípios fundamentais da MPT. Ela funciona como uma ferramenta para melhorar a capacidade de monitoramento, análise e tomada de decisão.
 
-18. Diferença entre manutenção tradicional e TPM
-Manutenção tradicional	TPM
+18. Diferença entre manutenção tradicional e MPT
+Manutenção tradicional	MPT
 Maior foco em reparar falhas	Maior foco em prevenir e eliminar perdas
 Responsabilidade concentrada na manutenção	Responsabilidade compartilhada
 Operador normalmente apenas opera	Operador participa da conservação
@@ -691,9 +691,9 @@ Foco no equipamento	Foco no equipamento, processo e pessoas
 Correção do problema	Busca da causa do problema
 Manutenção como função de apoio	Manutenção integrada à estratégia produtiva
 
-Essa comparação não significa que a manutenção tradicional não utilize prevenção. A diferença está principalmente na abrangência e na participação das pessoas dentro do sistema TPM.
+Essa comparação não significa que a manutenção tradicional não utilize prevenção. A diferença está principalmente na abrangência e na participação das pessoas dentro do sistema MPT.
 
-19. Importância da TPM para as empresas
+19. Importância da MPT para as empresas
 A competitividade industrial depende, entre outros fatores, da capacidade de produzir com qualidade, segurança, produtividade e custos controlados.
 
 Uma máquina parada pode representar:
@@ -714,25 +714,25 @@ Redução da capacidade produtiva.
 
 Por isso, administrar corretamente os equipamentos é uma atividade estratégica.
 
-A TPM contribui para transformar a manutenção de uma atividade predominantemente corretiva em uma prática integrada à gestão da produção.
+A MPT contribui para transformar a manutenção de uma atividade predominantemente corretiva em uma prática integrada à gestão da produção.
 
 20. Conclusão
 A Manutenção Produtiva Total é uma metodologia que busca melhorar o desempenho dos equipamentos e dos processos por meio da prevenção de falhas, eliminação de perdas, participação dos funcionários e melhoria contínua.
 
 Sua principal característica é compreender que a manutenção não deve ser responsabilidade exclusiva de um departamento. Operadores, técnicos, engenheiros, gestores e demais funcionários possuem papéis importantes para manter os equipamentos em condições adequadas.
 
-Os oito pilares da TPM — manutenção autônoma, manutenção planejada, melhoria específica, educação e treinamento, controle inicial, manutenção da qualidade, TPM administrativo e segurança, saúde e meio ambiente — formam uma estrutura para desenvolver essa abordagem de maneira sistemática.
+Os oito pilares da MPT — manutenção autônoma, manutenção planejada, melhoria específica, educação e treinamento, controle inicial, manutenção da qualidade, MPT administrativo e segurança, saúde e meio ambiente — formam uma estrutura para desenvolver essa abordagem de maneira sistemática.
 
 Além disso, ferramentas e indicadores como OEE, MTBF, MTTR, PDCA, análise de causa raiz e manutenção preditiva permitem acompanhar os resultados e identificar oportunidades de melhoria.
 
-Portanto, a TPM pode ser compreendida não apenas como uma técnica de manutenção, mas como uma filosofia de gestão voltada à redução de perdas e à busca contínua pela eficiência dos processos. Sua implantação exige planejamento, treinamento, participação das pessoas, acompanhamento de indicadores e comprometimento da organização.
+Portanto, a MPT pode ser compreendida não apenas como uma técnica de manutenção, mas como uma filosofia de gestão voltada à redução de perdas e à busca contínua pela eficiência dos processos. Sua implantação exige planejamento, treinamento, participação das pessoas, acompanhamento de indicadores e comprometimento da organização.
 
-Quando aplicada de forma consistente, a TPM pode contribuir para aumentar a disponibilidade dos equipamentos, melhorar a qualidade, reduzir desperdícios, aumentar a produtividade e promover condições de trabalho mais organizadas e seguras.
+Quando aplicada de forma consistente, a MPT pode contribuir para aumentar a disponibilidade dos equipamentos, melhorar a qualidade, reduzir desperdícios, aumentar a produtividade e promover condições de trabalho mais organizadas e seguras.
 
 Referências básicas
-NAKAJIMA, Seiichi. Introduction to TPM: Total Productive Maintenance. Productivity Press.
+NAKAJIMA, Seiichi. Introduction to MPT: Total Productive Maintenance. Productivity Press.
 
-SUZUKI, Tokutaro. TPM in Process Industries. Productivity Press.
+SUZUKI, Tokutaro. MPT in Process Industries. Productivity Press.
 
 SLACK, Nigel; BRANDON-JONES, Alistair; JOHNSTON, Robert. Administração da Produção. Atlas.
 

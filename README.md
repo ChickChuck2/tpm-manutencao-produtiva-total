@@ -1,6 +1,6 @@
-# MPT — Manutenção Produtiva Total (Total Productive Maintenance)
+# MPT — Manutenção Produtiva Total
 
-Apresentação técnica, editorial e interativa sobre a metodologia **MPT (Manutenção Produtiva Total)**, internacionalmente conhecida como **TPM (*Total Productive Maintenance*)**. O material foi sintetizado em **12 slides principais compactos**, objetivos e estruturados para ensino técnico e capacitação industrial, cobrindo desde fundamentos conceituais até o cálculo do OEE, diagnóstico de perdas e aplicação na Indústria 4.0.
+Apresentação técnica, editorial e interativa sobre a metodologia **MPT (Manutenção Produtiva Total)**. O material foi sintetizado em **12 slides principais compactos**, objetivos e estruturados para ensino técnico e capacitação industrial, cobrindo desde fundamentos conceituais até o cálculo do OEE, diagnóstico de perdas e aplicação na Indústria 4.0.
 
 🌐 **Acesse a Apresentação Online (GitHub Pages):**  
 👉 **[https://ChickChuck2.github.io/tpm-manutencao-produtiva-total/](https://ChickChuck2.github.io/tpm-manutencao-produtiva-total/)**
