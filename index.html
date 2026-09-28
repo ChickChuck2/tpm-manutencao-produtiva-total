@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TPM &mdash; Manutencao Produtiva Total</title>
+  <title>MPT &mdash; Manutenção Produtiva Total</title>
   <meta name="description"
-    content="Apresentacao tecnica sobre TPM: conceitos, 8 pilares, OEE, implantacao e Industria 4.0." />
+    content="Apresentação técnica sobre MPT (Manutenção Produtiva Total): conceitos, 8 pilares, OEE, diagnóstico de perdas e Indústria 4.0." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -23,1005 +23,465 @@
       <div class="cgrid">
         <div class="cleft">
           <div class="lbl">Metodologia Industrial</div>
-          <h1 class="ttl" style="font-size:clamp(3.5rem,10vw,9rem);margin-bottom:var(--sp-xs);">TPM</h1>
-          <div style="height:2px;background:var(--accent);width:clamp(2.8rem,7vw,6rem);margin-bottom:var(--sp-xs);">
-          </div>
-          <p class="sub" style="font-size:clamp(1rem,1.9vw,1.35rem);">Manutencao Produtiva Total</p>
-          <p class="body-sm" style="margin-top:var(--sp-sm);max-width:36ch;">Estrategia de gestao que transforma a
-            manutencao em vantagem competitiva, integrando operadores, tecnicos e gestores na eliminacao de perdas.</p>
+          <h1 class="ttl" style="font-size:clamp(3.5rem,10vw,9rem);margin-bottom:var(--sp-xs);">MPT</h1>
+          <div style="height:2px;background:var(--accent);width:clamp(2.8rem,7vw,6rem);margin-bottom:var(--sp-xs);"></div>
+          <p class="sub" style="font-size:clamp(1rem,1.9vw,1.35rem);font-weight:600;color:var(--text);">Manutenção Produtiva Total</p>
+          <p class="body-sm" style="margin-top:var(--sp-sm);max-width:38ch;">Estratégia de gestão que transforma a manutenção em diferencial competitivo, integrando operadores, técnicos e liderança na eliminação sistemática de perdas rumo à quebra zero.</p>
         </div>
         <div class="cright">
-          <img src="images/cover.jpg" alt="Linha de producao industrial" />
+          <img src="images/cover.jpg" alt="Linha de produção industrial automatizada" />
           <div class="cov"></div>
-          <div class="ctag">Total Productive Maintenance</div>
+          <div class="ctag">Manutenção Produtiva Total (TPM)</div>
         </div>
       </div>
     </section>
 
-    <!-- S02 O QUE E -->
+    <!-- S02 O QUE É A MPT -->
     <section class="slide" id="s2">
-      <div class="hdr"><span class="hdr-lbl">Introducao</span><span class="hdr-num">02 / 28</span></div>
+      <div class="hdr"><span class="hdr-lbl">Conceito Fundamental</span><span class="hdr-num">02 / 12</span></div>
       <div class="inner">
         <div class="l2col">
           <div class="ctxt">
-            <div class="lbl">Definicao</div>
-            <h2 class="ttl">O que e<br>a TPM?</h2>
+            <div class="lbl">Definição & Filosofia</div>
+            <h2 class="ttl">O que é<br>a MPT?</h2>
             <div class="div"></div>
-            <p class="sub">Sistema de gestao da manutencao que busca <strong style="color:var(--text);">maximizar a
-                eficiencia global dos equipamentos</strong> durante todo o ciclo de vida, com participacao integrada de
-              toda a organizacao.</p>
-            <p class="sub" style="margin-top:var(--sp-sm);">A TPM rompe com a visao de que a manutencao e
-              responsabilidade exclusiva do departamento tecnico.</p>
+            <p class="sub">A <strong>Manutenção Produtiva Total</strong> (conhecida mundialmente pela sigla em inglês <em>TPM — Total Productive Maintenance</em>) é um sistema de gestão que busca maximizar a eficiência global dos equipamentos ao longo de todo o seu ciclo de vida.</p>
+            <p class="body-sm" style="margin-top:var(--sp-xs);">A MPT rompe com o antigo paradigma de que a conservação é responsabilidade apenas da oficina mecânica ou elétrica. Na MPT, operação e manutenção trabalham em parceria diária para evitar paradas e defeitos.</p>
           </div>
-          <div class="cimg">
-            <img src="images/technician.jpg" alt="Tecnico inspecionando equipamento" />
+          <div class="ctxt" style="gap:clamp(0.4rem,1vh,0.75rem);">
+            <div class="lbl">As Três Dimensões do "Total"</div>
+            <div class="lcard" style="border-left-color:var(--accent);">
+              <div class="lnum">DIMENSÃO 01</div>
+              <div class="ltit">Participação Total</div>
+              <div class="ldsc">Operadores de linha, técnicos, engenharia e alta gestão integrados na conservação contínua dos ativos industriais.</div>
+            </div>
+            <div class="lcard" style="border-left-color:var(--accent2);">
+              <div class="lnum">DIMENSÃO 02</div>
+              <div class="ltit">Eficiência Total</div>
+              <div class="ldsc">Aproveitamento máximo da capacidade dos equipamentos, eliminando falhas, pequenos travamentos e desperdícios.</div>
+            </div>
+            <div class="lcard" style="border-left-color:#2d6e58;">
+              <div class="lnum">DIMENSÃO 03</div>
+              <div class="ltit">Ciclo de Vida Total</div>
+              <div class="ldsc">Confiabilidade e facilidade de intervenção planejadas desde a compra e instalação até a substituição da máquina.</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- S03 TRES DIMENSOES -->
+    <!-- S03 HISTÓRICO -->
     <section class="slide" id="s3">
-      <div class="hdr"><span class="hdr-lbl">Conceito</span><span class="hdr-num">03 / 28</span></div>
+      <div class="hdr"><span class="hdr-lbl">Evolução Histórica</span><span class="hdr-num">03 / 12</span></div>
       <div class="inner">
-        <div class="lbl">O que significa "Total"?</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Tres dimensoes</h2>
-        <div class="lgrid">
+        <div class="l2col">
+          <div class="cimg"><img src="images/training.jpg" alt="Evolução técnica da manutenção industrial" /></div>
+          <div class="ctxt">
+            <div class="lbl">Origem & Trajetória</div>
+            <h2 class="ttl">Evolução da<br>Manutenção</h2>
+            <div class="div"></div>
+            <div style="display:flex;flex-direction:column;gap:clamp(0.2rem,0.6vh,0.45rem);">
+              <div class="srow">
+                <div class="snum" style="font-size:clamp(0.85rem,1.2vw,1.05rem);color:var(--muted);">Anos 50</div>
+                <div class="sc">
+                  <div class="stit">Manutenção Corretiva</div>
+                  <div class="sdsc">"Quebrou, conserta". Equipamentos operavam até a falha mecânica, gerando altos custos, atrasos de entrega e estresse operacional.</div>
+                </div>
+              </div>
+              <div class="srow">
+                <div class="snum" style="font-size:clamp(0.85rem,1.2vw,1.05rem);color:var(--muted);">Anos 60</div>
+                <div class="sc">
+                  <div class="stit">Manutenção Preventiva</div>
+                  <div class="sdsc">Trocas e inspeções programadas por tempo ou horas de uso. Reduziu paradas repentinas, mas ainda isolava a manutenção da produção.</div>
+                </div>
+              </div>
+              <div class="srow">
+                <div class="snum" style="font-size:clamp(0.85rem,1.2vw,1.05rem);color:var(--accent);">1971</div>
+                <div class="sc">
+                  <div class="stit">Surgimento da MPT no Japão</div>
+                  <div class="sdsc">Seiichi Nakajima e o JIPM estruturam a metodologia, capacitando operadores a cuidar ativamente das máquinas no dia a dia.</div>
+                </div>
+              </div>
+              <div class="srow" style="border:none;">
+                <div class="snum" style="font-size:clamp(0.85rem,1.2vw,1.05rem);color:var(--accent2);">Hoje</div>
+                <div class="sc">
+                  <div class="stit">MPT 4.0 & Manutenção Conectada</div>
+                  <div class="sdsc">Sensores inteligentes (IoT), monitoramento preditivo de vibração em tempo real e inteligência artificial antecipando desgastes.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S04 METAS & OBJETIVOS -->
+    <section class="slide" id="s4">
+      <div class="hdr"><span class="hdr-lbl">Diretrizes Estratégicas</span><span class="hdr-num">04 / 12</span></div>
+      <div class="inner">
+        <div class="lbl">Propósito & Diretrizes</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Objetivos e Metas da MPT</h2>
+        <p class="sub" style="margin-bottom:var(--sp-sm);max-width:85ch;">A MPT orienta a fábrica rumo ao patamar de classe mundial através da consagrada <strong>Tríade dos Três Zeros</strong>:</p>
+        
+        <div class="lgrid" style="margin-bottom:clamp(0.5rem,1.2vh,1rem);">
           <div class="lcard" style="border-left-color:var(--accent);">
-            <div class="lnum">DIMENSAO 01</div>
-            <div class="ltit">Participacao Total</div>
-            <div class="ldsc">Operadores, tecnicos, gestores e engenheiros participam das atividades de manutencao de
-              forma integrada e continua.</div>
+            <div class="lnum">META PRINCIPAL 01</div>
+            <div class="ltit">Zero Quebras</div>
+            <div class="ldsc">Eliminar paradas inesperadas por meio de inspeções diárias, lubrificação disciplinada e manutenção preditiva precisa.</div>
           </div>
           <div class="lcard" style="border-left-color:var(--accent2);">
-            <div class="lnum">DIMENSAO 02</div>
-            <div class="ltit">Eficiencia Total</div>
-            <div class="ldsc">Aproveitar ao maximo a capacidade dos equipamentos, reduzindo sistematicamente todas as
-              categorias de perdas.</div>
+            <div class="lnum">META PRINCIPAL 02</div>
+            <div class="ltit">Zero Defeitos</div>
+            <div class="ldsc">Manter as condições ideais das máquinas para assegurar produtos em conformidade já na primeira passagem, sem retrabalho.</div>
           </div>
           <div class="lcard" style="border-left-color:#2d6e58;">
-            <div class="lnum">DIMENSAO 03</div>
-            <div class="ltit">Ciclo de Vida Total</div>
-            <div class="ldsc">Manutencao e confiabilidade consideradas desde a aquisicao, operacao ate a substituicao do
-              equipamento.</div>
+            <div class="lnum">META PRINCIPAL 03</div>
+            <div class="ltit">Zero Acidentes</div>
+            <div class="ldsc">Promover um ambiente de trabalho limpo, organizado e ergonomicamente seguro, garantindo a integridade dos trabalhadores.</div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- S04 HISTORICO -->
-    <section class="slide" id="s4">
-      <div class="hdr"><span class="hdr-lbl">Historico</span><span class="hdr-num">04 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="cimg"><img src="images/cover.jpg" alt="Fabrica industrial historica" /></div>
-          <div class="ctxt">
-            <div class="lbl">Origem</div>
-            <h2 class="ttl">Historico<br>da TPM</h2>
-            <div class="div"></div>
-            <div style="display:flex;flex-direction:column;gap:var(--sp-sm);">
-              <div class="srow" style="padding:var(--sp-xs) 0;">
-                <div class="snum"
-                  style="font-size:clamp(0.78rem,1.2vw,1rem);color:var(--muted);min-width:auto;letter-spacing:.1em;">
-                  1950s</div>
-                <div class="sc">
-                  <div class="stit">Manutencao Corretiva</div>
-                  <div class="sdsc">Equipamento usado ate falhar. Reparo realizado apos a ocorrencia.</div>
-                </div>
-              </div>
-              <div class="srow" style="padding:var(--sp-xs) 0;">
-                <div class="snum"
-                  style="font-size:clamp(0.78rem,1.2vw,1rem);color:var(--muted);min-width:auto;letter-spacing:.1em;">
-                  1960s</div>
-                <div class="sc">
-                  <div class="stit">Manutencao Preventiva</div>
-                  <div class="sdsc">Intervencoes planejadas em periodos determinados, reduzindo falhas urgentes.</div>
-                </div>
-              </div>
-              <div class="srow" style="padding:var(--sp-xs) 0;border:none;">
-                <div class="snum"
-                  style="font-size:clamp(0.78rem,1.2vw,1rem);color:var(--accent);min-width:auto;letter-spacing:.1em;">
-                  1971</div>
-                <div class="sc">
-                  <div class="stit">Surgimento da TPM</div>
-                  <div class="sdsc">Seiichi Nakajima estrutura a metodologia no Japao, envolvendo operadores na
-                    conservacao dos equipamentos.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S05 OBJETIVOS -->
-    <section class="slide" id="s5">
-      <div class="hdr"><span class="hdr-lbl">Objetivos</span><span class="hdr-num">05 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">Proposito</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Objetivos da TPM</h2>
         <div class="obl">
           <div class="obc">
-            <div class="obi"><span class="obn2">01</span><span class="obt2">Aumentar a disponibilidade dos
-                equipamentos</span></div>
-            <div class="obi"><span class="obn2">02</span><span class="obt2">Reduzir o numero de falhas e paradas</span>
-            </div>
-            <div class="obi"><span class="obn2">03</span><span class="obt2">Aumentar a produtividade geral</span></div>
-            <div class="obi"><span class="obn2">04</span><span class="obt2">Melhorar a qualidade dos produtos</span>
-            </div>
-            <div class="obi"><span class="obn2">05</span><span class="obt2">Reduzir custos de manutencao</span></div>
-            <div class="obi"><span class="obn2">06</span><span class="obt2">Aumentar a vida util dos equipamentos</span>
-            </div>
+            <div class="obi"><span class="obn2">01</span><span class="obt2">Aumentar a disponibilidade real e a produtividade das linhas</span></div>
+            <div class="obi"><span class="obn2">02</span><span class="obt2">Reduzir custos operacionais com peças e manutenções emergenciais</span></div>
           </div>
           <div class="obc">
-            <div class="obi"><span class="obn2">07</span><span class="obt2">Reduzir desperdicios e retrabalho</span>
-            </div>
-            <div class="obi"><span class="obn2">08</span><span class="obt2">Melhorar a seguranca dos
-                trabalhadores</span></div>
-            <div class="obi"><span class="obn2">09</span><span class="obt2">Desenvolver a capacidade dos
-                funcionarios</span></div>
-            <div class="obi"><span class="obn2">10</span><span class="obt2">Criar uma cultura de prevencao</span></div>
-            <div class="obi"><span class="obn2">11</span><span class="obt2">Melhorar continuamente os processos
-                produtivos</span></div>
+            <div class="obi"><span class="obn2">03</span><span class="obt2">Aumentar a vida útil dos equipamentos e o retorno sobre o investimento</span></div>
+            <div class="obi"><span class="obn2">04</span><span class="obt2">Desenvolver a qualificação técnica e o senso de propriedade da equipe</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- S06 OS 8 PILARES -->
-    <section class="slide" id="s6">
-      <div class="hdr"><span class="hdr-lbl">Estrutura</span><span class="hdr-num">06 / 28</span></div>
+    <!-- S05 OS 8 PILARES -->
+    <section class="slide" id="s5">
+      <div class="hdr"><span class="hdr-lbl">Estrutura Metodológica</span><span class="hdr-num">05 / 12</span></div>
       <div class="inner">
-        <div class="lbl">Fundacao</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Os 8 Pilares</h2>
+        <div class="lbl">Fundação</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Os 8 Pilares da MPT</h2>
+        <p class="sub" style="margin-bottom:var(--sp-xs);">A sustentação da metodologia é organizada em 8 pilares complementares que unem pessoas, processos e máquinas:</p>
         <div class="pgrid">
           <div class="pcard">
             <div class="pnum">01</div>
-            <div class="pname">Manutencao Autonoma</div>
-            <div class="pdesc">Operadores assumem atividades basicas de conservacao dos equipamentos.</div>
+            <div class="pname">Manutenção Autônoma</div>
+            <div class="pdesc">Operadores executam inspeções rotineiras, limpeza, lubrificação e pequenos reapertos.</div>
           </div>
           <div class="pcard">
             <div class="pnum">02</div>
-            <div class="pname">Manutencao Planejada</div>
-            <div class="pdesc">Intervencoes organizadas e programadas pela equipe tecnica.</div>
+            <div class="pname">Manutenção Planejada</div>
+            <div class="pdesc">Intervenções preventivas, preditivas e periódicas programadas pelos técnicos especialistas.</div>
           </div>
           <div class="pcard">
             <div class="pnum">03</div>
-            <div class="pname">Melhoria Especifica</div>
-            <div class="pdesc">Eliminacao sistematica de perdas e causas-raiz dos problemas.</div>
+            <div class="pname">Melhoria Específica</div>
+            <div class="pdesc">Eliminação metódica das causas raízes de falhas, perdas e gargalos (<em>Kobetsu Kaizen</em>).</div>
           </div>
           <div class="pcard">
             <div class="pnum">04</div>
-            <div class="pname">Educacao e Treinamento</div>
-            <div class="pdesc">Capacitacao tecnica de operadores e mantenedores.</div>
+            <div class="pname">Educação e Treinamento</div>
+            <div class="pdesc">Capacitação técnica contínua para elevar as habilidades de operadores e mantenedores.</div>
           </div>
           <div class="pcard">
             <div class="pnum">05</div>
             <div class="pname">Controle Inicial</div>
-            <div class="pdesc">Manutencao e confiabilidade desde a aquisicao do equipamento.</div>
+            <div class="pdesc">Projeto e aquisição de equipamentos de fácil manutenção, alta confiabilidade e segurança.</div>
           </div>
           <div class="pcard">
             <div class="pnum">06</div>
-            <div class="pname">Manutencao da Qualidade</div>
-            <div class="pdesc">Equipamentos em condicoes que garantam produtos sem defeitos.</div>
+            <div class="pname">Manutenção da Qualidade</div>
+            <div class="pdesc">Ajustes rigorosos das máquinas para produzir 100% dentro das especificações de engenharia.</div>
           </div>
           <div class="pcard">
             <div class="pnum">07</div>
-            <div class="pname">TPM Administrativo</div>
-            <div class="pdesc">Eliminacao de perdas nos processos de suporte e administracao.</div>
+            <div class="pname">MPT Administrativo</div>
+            <div class="pdesc">Combate a perdas, lentidão e retrabalho nos setores administrativos e de apoio à fábrica.</div>
           </div>
           <div class="pcard">
             <div class="pnum">08</div>
-            <div class="pname">Seguranca e Meio Ambiente</div>
-            <div class="pdesc">Producao segura e ambientalmente responsavel.</div>
+            <div class="pname">Segurança e Meio Ambiente</div>
+            <div class="pdesc">Garantia de risco zero para os operadores e práticas industriais ecologicamente sustentáveis.</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- S07 PILAR 01 -->
+    <!-- S06 AUTÔNOMA VS PLANEJADA -->
+    <section class="slide" id="s6">
+      <div class="hdr"><span class="hdr-lbl">Prática Operacional</span><span class="hdr-num">06 / 12</span></div>
+      <div class="inner">
+        <div class="lbl">Sinergia no Chão de Fábrica</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Autônoma vs. Planejada</h2>
+        <p class="sub" style="margin-bottom:var(--sp-sm);">A MPT harmoniza a atuação diária do operador com a especialização técnica dos mantenedores:</p>
+        <div class="l2col" style="align-items:stretch;">
+          <div class="lcard" style="border-left-color:var(--accent);padding:clamp(0.8rem,1.5vh,1.3rem);">
+            <div class="lnum">PILAR 01 &bull; OPERADOR</div>
+            <div class="ltit" style="font-size:clamp(1.2rem,1.8vw,1.6rem);">Manutenção Autônoma</div>
+            <p class="body-sm" style="margin:var(--sp-xs) 0;"><em>"Da minha máquina cuido eu."</em> Por estar ao lado do equipamento durante todo o turno, o operador é quem primeiro nota anomalias:</p>
+            <div class="blist">
+              <div class="bi">Limpeza diária que serve como inspeção visual detalhada</div>
+              <div class="bi">Lubrificação e reapertos simples de rotina</div>
+              <div class="bi">Identificação precoce de ruídos, folgas, calor e vazamentos</div>
+              <div class="bi">Verificação de níveis, pressão e parâmetros normais</div>
+              <div class="bi">Comunicação imediata de anomalias à equipe técnica</div>
+            </div>
+          </div>
+          <div class="lcard" style="border-left-color:var(--accent2);padding:clamp(0.8rem,1.5vh,1.3rem);">
+            <div class="lnum">PILAR 02 &bull; TÉCNICO ESPECIALISTA</div>
+            <div class="ltit" style="font-size:clamp(1.2rem,1.8vw,1.6rem);">Manutenção Planejada</div>
+            <p class="body-sm" style="margin:var(--sp-xs) 0;"><em>"Confiabilidade e engenharia."</em> A equipe especializada atua de maneira programada para evitar paradas emergenciais:</p>
+            <div class="blist">
+              <div class="bi">Planos estruturados de manutenção preventiva e periódica</div>
+              <div class="bi">Manutenção preditiva (termografia, vibração e análise de óleo)</div>
+              <div class="bi">Substituição planejada de componentes com desgaste previsível</div>
+              <div class="bi">Grandes revisões, reformas e intervenções de alta complexidade</div>
+              <div class="bi">Suporte técnico e capacitação prática dos operadores</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S07 MELHORIA ESPECÍFICA & PDCA -->
     <section class="slide" id="s7">
-      <div class="hdr"><span class="hdr-lbl">Pilar 01</span><span class="hdr-num">07 / 28</span></div>
-      <div class="inner">
-        <div class="pdet">
-          <div class="pdl2">
-            <div class="lbl">Pilar 01</div>
-            <h2 class="ttl">Manutencao<br>Autonoma</h2>
-            <div class="div"></div>
-            <p class="sub">O operador, por estar proximo ao equipamento, e o primeiro a perceber anormalidades. Realiza
-              conservacao basica sem substituir o tecnico especializado.</p>
-          </div>
-          <div class="pdr">
-            <div class="pbig">01</div>
-            <div class="blist">
-              <div class="bi">Limpeza e inspecao visual</div>
-              <div class="bi">Lubrificacao e apertos simples</div>
-              <div class="bi">Identificacao de vazamentos</div>
-              <div class="bi">Deteccao de ruidos ou vibracoes anormais</div>
-              <div class="bi">Verificacao de condicoes basicas de operacao</div>
-              <div class="bi">Comunicacao de anormalidades a manutencao</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S08 PILAR 02 -->
-    <section class="slide" id="s8">
-      <div class="hdr"><span class="hdr-lbl">Pilar 02</span><span class="hdr-num">08 / 28</span></div>
+      <div class="hdr"><span class="hdr-lbl">Método Científico</span><span class="hdr-num">07 / 12</span></div>
       <div class="inner">
         <div class="l2col">
           <div class="ctxt">
-            <div class="lbl">Pilar 02</div>
-            <h2 class="ttl">Manutencao<br>Planejada</h2>
+            <div class="lbl">Pilar 03 &bull; Kaizen</div>
+            <h2 class="ttl">Melhoria<br>e PDCA</h2>
             <div class="div"></div>
-            <p class="sub">Organizacao das intervencoes para <strong style="color:var(--text);">reduzir a dependencia da
-                manutencao corretiva emergencial</strong>. Componentes com desgaste previsivel sao substituidos antes de
-              provocar parada.</p>
-          </div>
-          <div class="ctxt">
-            <div class="blist" style="margin-top:var(--sp-sm);">
-              <div class="bi">Manutencao preventiva</div>
-              <div class="bi">Manutencao preditiva</div>
-              <div class="bi">Inspecoes periodicas</div>
-              <div class="bi">Lubrificacao programada</div>
-              <div class="bi">Substituicao planejada de componentes</div>
-              <div class="bi">Revisoes e corretivas programadas</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S09 PILAR 03 -->
-    <section class="slide" id="s9">
-      <div class="hdr"><span class="hdr-lbl">Pilar 03</span><span class="hdr-num">09 / 28</span></div>
-      <div class="inner">
-        <div class="pdet">
-          <div class="pdl2">
-            <div class="lbl">Pilar 03</div>
-            <h2 class="ttl">Melhoria<br>Especifica</h2>
-            <div class="div"></div>
-            <p class="sub">Nao basta reparar o componente danificado. E necessario descobrir a <strong
-                style="color:var(--text);">causa raiz</strong> e eliminar o que provoca o problema de forma definitiva.
-            </p>
-          </div>
-          <div class="pdr">
-            <div class="pbig">03</div>
-            <div class="blist">
-              <div class="bi">Diagrama de Ishikawa</div>
-              <div class="bi">Metodo dos 5 Porques</div>
-              <div class="bi">Analise de Pareto</div>
-              <div class="bi">Analise de causa raiz (RCA)</div>
-              <div class="bi">Ciclo PDCA</div>
-              <div class="bi">Kaizen</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S10 PILAR 04 -->
-    <section class="slide" id="s10">
-      <div class="hdr"><span class="hdr-lbl">Pilar 04</span><span class="hdr-num">10 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="cimg"><img src="images/training.jpg" alt="Treinamento tecnico industrial" /></div>
-          <div class="ctxt">
-            <div class="lbl">Pilar 04</div>
-            <h2 class="ttl">Educacao e<br>Treinamento</h2>
-            <div class="div"></div>
-            <p class="sub">A TPM depende de pessoas capacitadas. Um funcionario bem treinado identifica sinais de
-              deterioracao antes que se tornem falhas graves.</p>
+            <p class="sub">Na MPT, consertar o sintoma não basta. A equipe se pergunta: <strong>"Qual é a causa raiz desse problema e o que faremos para ele nunca mais se repetir?"</strong></p>
             <div class="blist" style="margin-top:var(--sp-xs);">
-              <div class="bi">Funcionamento e operacao dos equipamentos</div>
-              <div class="bi">Procedimentos de seguranca</div>
-              <div class="bi">Tecnicas de inspecao e lubrificacao</div>
-              <div class="bi">Ferramentas de melhoria continua</div>
+              <div class="bi"><strong>Análise de Causa Raiz (RCA):</strong> Investigação detalhada de falhas</div>
+              <div class="bi"><strong>Método dos 5 Porquês:</strong> Perguntar até encontrar a origem real</div>
+              <div class="bi"><strong>Diagrama de Ishikawa:</strong> Exame de Máquina, Método, Material e Mão de obra</div>
+              <div class="bi"><strong>Lição Ponto a Ponto (LPP):</strong> Padronização do conhecimento aprendido</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S11 PILAR 05 -->
-    <section class="slide" id="s11">
-      <div class="hdr"><span class="hdr-lbl">Pilar 05</span><span class="hdr-num">11 / 28</span></div>
-      <div class="inner">
-        <div class="pdet">
-          <div class="pdl2">
-            <div class="lbl">Pilar 05</div>
-            <h2 class="ttl">Controle<br>Inicial</h2>
-            <div class="div"></div>
-            <p class="sub">Ao adquirir um equipamento, nao considerar somente o preco. A <strong
-                style="color:var(--text);">manutencao deve ser avaliada desde o inicio</strong> do ciclo de vida.</p>
-          </div>
-          <div class="pdr">
-            <div class="pbig">05</div>
-            <div class="blist">
-              <div class="bi">Facilidade de manutencao e limpeza</div>
-              <div class="bi">Disponibilidade de pecas de reposicao</div>
-              <div class="bi">Consumo de energia e recursos</div>
-              <div class="bi">Confiabilidade e seguranca operacional</div>
-              <div class="bi">Tempo necessario para manutencao</div>
-              <div class="bi">Historico e reputacao do fabricante</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S12 PILAR 06 -->
-    <section class="slide" id="s12">
-      <div class="hdr"><span class="hdr-lbl">Pilar 06</span><span class="hdr-num">12 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="ctxt">
-            <div class="lbl">Pilar 06</div>
-            <h2 class="ttl">Manutencao<br>da Qualidade</h2>
-            <div class="div"></div>
-            <p class="sub">Uma maquina desgastada produz pecas defeituosas. Este pilar garante que as condicoes dos
-              equipamentos sejam adequadas para <strong style="color:var(--text);">produzir dentro das
-                especificacoes</strong>.</p>
-            <div class="ores" style="margin-top:var(--sp-sm);">
-              <div>
-                <div class="orl">Principio central</div>
-                <div class="body-sm" style="margin-top:4px;">Producao correta desde o inicio. Nao inspecionar para
-                  corrigir.</div>
-              </div>
-            </div>
-          </div>
-          <div class="cimg"><img src="images/quality.jpg" alt="Controle de qualidade em manufatura" /></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S13 PILAR 07 -->
-    <section class="slide" id="s13">
-      <div class="hdr"><span class="hdr-lbl">Pilar 07</span><span class="hdr-num">13 / 28</span></div>
-      <div class="inner">
-        <div class="pdet">
-          <div class="pdl2">
-            <div class="lbl">Pilar 07</div>
-            <h2 class="ttl">TPM<br>Administrativo</h2>
-            <div class="div"></div>
-            <p class="sub">Os principios de eliminacao de perdas e melhoria continua se aplicam tambem aos setores
-              administrativos, que possuem processos com potencial de perda significativo.</p>
-          </div>
-          <div class="pdr">
-            <div class="pbig">07</div>
-            <div class="blist">
-              <div class="bi">Erros e atrasos em documentacao</div>
-              <div class="bi">Retrabalho em processos internos</div>
-              <div class="bi">Demora na aprovacao de pedidos</div>
-              <div class="bi">Falhas de comunicacao entre areas</div>
-              <div class="bi">Processos burocraticos desnecessarios</div>
-              <div class="bi">Atrasos no fornecimento de materiais</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S14 PILAR 08 -->
-    <section class="slide" id="s14">
-      <div class="hdr"><span class="hdr-lbl">Pilar 08</span><span class="hdr-num">14 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="cimg"><img src="images/safety.jpg" alt="Seguranca industrial" /></div>
-          <div class="ctxt">
-            <div class="lbl">Pilar 08</div>
-            <h2 class="ttl">Seguranca e<br>Meio Ambiente</h2>
-            <div class="div"></div>
-            <p class="sub">A busca por produtividade nao deve eliminar medidas de seguranca. Um equipamento bem mantido
-              e tambem um equipamento <strong style="color:var(--text);">mais seguro para os trabalhadores</strong>.</p>
-            <div class="blist" style="margin-top:var(--sp-xs);">
-              <div class="bi">Prevencao de acidentes de trabalho</div>
-              <div class="bi">Melhoria das condicoes ambientais</div>
-              <div class="bi">Controle de residuos e vazamentos</div>
-              <div class="bi">Cultura de seguranca integrada ao processo</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S15 6 GRANDES PERDAS -->
-    <section class="slide" id="s15">
-      <div class="hdr"><span class="hdr-lbl">Diagnostico</span><span class="hdr-num">15 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">Categorias</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">As 6 Grandes Perdas</h2>
-        <div class="lgrid">
-          <div class="lcard">
-            <div class="lnum">PERDA 01</div>
-            <div class="ltit">Quebras</div>
-            <div class="ldsc">Parada total ou parcial por falha. Ex: falha hidraulica em prensa gerando 2h de parada
-              inesperada.</div>
-          </div>
-          <div class="lcard">
-            <div class="lnum">PERDA 02</div>
-            <div class="ltit">Setup e Ajustes</div>
-            <div class="ldsc">Tempo de preparacao para trocar produto ou molde. Quanto maior, menor a disponibilidade
-              real.</div>
-          </div>
-          <div class="lcard">
-            <div class="lnum">PERDA 03</div>
-            <div class="ltit">Pequenas Paradas</div>
-            <div class="ldsc">Interrupcoes curtas e frequentes: sensor bloqueado, peca mal posicionada, reinicializacoes
-              rapidas.</div>
-          </div>
-          <div class="lcard">
-            <div class="lnum">PERDA 04</div>
-            <div class="ltit">Reducao de Velocidade</div>
-            <div class="ldsc">Equipamento operando abaixo da velocidade ideal. Ex: 80 pecas/h no lugar das 100
-              projetadas.</div>
-          </div>
-          <div class="lcard">
-            <div class="lnum">PERDA 05</div>
-            <div class="ltit">Defeitos e Retrabalho</div>
-            <div class="ldsc">Produtos com problemas de qualidade. Retrabalho consome mao de obra, energia e tempo
-              produtivo.</div>
-          </div>
-          <div class="lcard">
-            <div class="lnum">PERDA 06</div>
-            <div class="ltit">Perdas no Startup</div>
-            <div class="ldsc">Perdas durante inicializacao: ajustes, aquecimento, testes e pecas produzidas fora de
-              especificacao.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S16 OEE -->
-    <section class="slide" id="s16">
-      <div class="hdr"><span class="hdr-lbl">Indicador Principal</span><span class="hdr-num">16 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">OEE &mdash; Overall Equipment Effectiveness</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Eficiencia Global</h2>
-        <div class="ol2">
-          <div style="display:flex;flex-direction:column;justify-content:center;gap:var(--sp-md);">
-            <div class="formula">OEE = Disponibilidade<br>&times; Performance<br>&times; Qualidade</div>
-            <div class="ofact">
-              <div class="of">
-                <div class="ofl">Disponibilidade</div>
-                <div class="ofd">Quanto do tempo planejado o equipamento esteve disponivel.</div>
-                <div class="off">Tempo de operacao / Tempo planejado</div>
-              </div>
-              <div class="tline" style="margin:0;"></div>
-              <div class="of">
-                <div class="ofl">Performance</div>
-                <div class="ofd">Se o equipamento produz na velocidade projetada.</div>
-                <div class="off">Producao real vs. producao teorica</div>
-              </div>
-              <div class="tline" style="margin:0;"></div>
-              <div class="of">
-                <div class="ofl">Qualidade</div>
-                <div class="ofd">Proporcao de produtos bons em relacao ao total produzido.</div>
-                <div class="off">Produtos bons / Total produzido</div>
-              </div>
-            </div>
-          </div>
-          <div style="display:flex;flex-direction:column;justify-content:center;gap:var(--sp-md);">
-            <div class="lbl">Exemplo numerico</div>
-            <div class="obars">
-              <div class="obar">
-                <div class="obh"><span class="obn">Disponibilidade</span><span class="obv">90%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:90%;"></div>
-                </div>
-              </div>
-              <div class="obar">
-                <div class="obh"><span class="obn">Performance</span><span class="obv">85%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:85%;background:var(--accent2);"></div>
-                </div>
-              </div>
-              <div class="obar">
-                <div class="obh"><span class="obn">Qualidade</span><span class="obv">95%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:95%;background:#2d6e58;"></div>
-                </div>
-              </div>
-            </div>
-            <div class="ores">
-              <div>
-                <div class="orl">OEE Resultante</div>
-                <div class="body-sm" style="margin-top:4px;">0,90 &times; 0,85 &times; 0,95</div>
-              </div>
-              <div class="orv">72,7%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S17 MTBF MTTR -->
-    <section class="slide" id="s17">
-      <div class="hdr"><span class="hdr-lbl">Indicadores</span><span class="hdr-num">17 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">KPIs de Manutencao</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Indicadores Complementares</h2>
-        <div class="stl">
-          <div class="stc">
-            <div class="sti">
-              <div class="sla">MTBF</div>
-              <div class="sva">Mean Time Between Failures</div>
-              <div class="sfo">Tempo de operacao / N&#730; de falhas</div>
-              <div class="ssu">Quanto maior o MTBF, maior o intervalo entre falhas. Indica confiabilidade do
-                equipamento.</div>
-            </div>
-            <div class="sti">
-              <div class="sla">Disponibilidade</div>
-              <div class="sva" style="font-size:clamp(1.1rem,2.2vw,2rem);">Tempo disponivel / Tempo total</div>
-              <div class="ssu">Proporcao do tempo em que o equipamento esta apto para produzir com qualidade.</div>
-            </div>
-          </div>
-          <div class="stc">
-            <div class="sti">
-              <div class="sla">MTTR</div>
-              <div class="sva">Mean Time To Repair</div>
-              <div class="sfo">Tempo total de reparo / N&#730; de reparos</div>
-              <div class="ssu">Quanto menor o MTTR, mais eficiente e a recuperacao do equipamento apos uma falha.</div>
-            </div>
-            <div class="sti">
-              <div class="sla">Taxa de Falhas</div>
-              <div class="sva" style="font-size:clamp(1.1rem,2.2vw,2rem);">Frequencia de Ocorrencias</div>
-              <div class="ssu">Identifica equipamentos com elevada frequencia de interrupcoes para priorizar acoes de
-                melhoria.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S18 TIPOS DE MANUTENCAO -->
-    <section class="slide" id="s18">
-      <div class="hdr"><span class="hdr-lbl">Estrategias</span><span class="hdr-num">18 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">Abordagens</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Tipos de Manutencao</h2>
-        <div class="mgrid">
-          <div class="mcard">
-            <div class="mtag">Reativa</div>
-            <div class="mnm">Manutencao Corretiva</div>
-            <div class="mds">Realizada apos a falha. Dependencia excessiva gera custos elevados e paradas inesperadas.
-            </div>
-          </div>
-          <div class="mcard" style="border-top-color:var(--accent2);">
-            <div class="mtag" style="color:var(--accent2);">Planejada</div>
-            <div class="mnm">Manutencao Preventiva</div>
-            <div class="mds">Intervencoes planejadas antes da falha, baseadas em periodicidade ou horas de operacao.
-            </div>
-          </div>
-          <div class="mcard" style="border-top-color:#2d6e58;">
-            <div class="mtag" style="color:#2d6e58;">Monitoramento</div>
-            <div class="mnm">Manutencao Preditiva</div>
-            <div class="mds">Acompanha a condicao do equipamento via vibracao, termografia, analise de oleo e ultrassom.
-            </div>
-          </div>
-          <div class="mcard" style="border-top-color:#6e2d58;">
-            <div class="mtag" style="color:#6e2d58;">Investigativa</div>
-            <div class="mnm">Manutencao Detectiva</div>
-            <div class="mds">Identifica falhas ocultas em sistemas de protecao e emergencia que nao se manifestam
-              normalmente.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S19 IMPLANTACAO -->
-    <section class="slide" id="s19">
-      <div class="hdr"><span class="hdr-lbl">Implementacao</span><span class="hdr-num">19 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">Sequencia</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Implantacao da TPM</h2>
-        <div class="slay">
-          <div class="srow">
-            <div class="snum">01</div>
-            <div class="sc">
-              <div class="stit">Comprometimento da Direcao</div>
-              <div class="sdsc">A lideranca precisa compreender, apoiar e financiar a metodologia ativamente.</div>
-            </div>
-          </div>
-          <div class="srow">
-            <div class="snum">02</div>
-            <div class="sc">
-              <div class="stit">Capacitacao</div>
-              <div class="sdsc">Treinamento sobre TPM, equipamentos e ferramentas de melhoria para todos os envolvidos.
-              </div>
-            </div>
-          </div>
-          <div class="srow">
-            <div class="snum">03</div>
-            <div class="sc">
-              <div class="stit">Area-Piloto</div>
-              <div class="sdsc">Iniciar em uma maquina ou setor especifico para testar e ajustar a metodologia com
-                seguranca.</div>
-            </div>
-          </div>
-          <div class="srow">
-            <div class="snum">04</div>
-            <div class="sc">
-              <div class="stit">Identificacao das Perdas</div>
-              <div class="sdsc">Levantamento detalhado das causas de paradas, defeitos, reducao de velocidade e falhas.
-              </div>
-            </div>
-          </div>
-          <div class="srow">
-            <div class="snum">05</div>
-            <div class="sc">
-              <div class="stit">Manutencao Autonoma</div>
-              <div class="sdsc">Operadores passam a executar atividades basicas de conservacao e inspecao dos
-                equipamentos.</div>
-            </div>
-          </div>
-          <div class="srow">
-            <div class="snum">06&ndash;09</div>
-            <div class="sc">
-              <div class="stit">Manutencao Planejada &rarr; Analise de Causas &rarr; Indicadores &rarr; Melhoria
-                Continua</div>
-              <div class="sdsc">Ciclo continuo de desenvolvimento, acompanhamento e evolucao da metodologia na
-                organizacao.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S20 EXEMPLO PRATICO -->
-    <section class="slide" id="s20">
-      <div class="hdr"><span class="hdr-lbl">Aplicacao</span><span class="hdr-num">20 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="ctxt">
-            <div class="lbl">Caso Real</div>
-            <h2 class="ttl">Exemplo<br>Pratico</h2>
-            <div class="div"></div>
-            <p class="sub">Uma industria identifica frequentes paradas em uma maquina critica. Apos analise dos dados, a
-              equipe aplica a TPM de forma estruturada e sistematica.</p>
-          </div>
-          <div class="ctxt" style="gap:var(--sp-sm);">
-            <div class="lbl">Distribuicao das perdas identificadas</div>
-            <div class="obars">
-              <div class="obar">
-                <div class="obh"><span class="obn">Falhas mecanicas</span><span class="obv"
-                    style="font-size:clamp(0.8rem,1.3vw,1rem);">40%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:40%;"></div>
-                </div>
-              </div>
-              <div class="obar">
-                <div class="obh"><span class="obn">Pequenos travamentos</span><span class="obv"
-                    style="font-size:clamp(0.8rem,1.3vw,1rem);">25%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:25%;background:var(--accent2);"></div>
-                </div>
-              </div>
-              <div class="obar">
-                <div class="obh"><span class="obn">Ajustes e setup</span><span class="obv"
-                    style="font-size:clamp(0.8rem,1.3vw,1rem);">20%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:20%;background:#2d6e58;"></div>
-                </div>
-              </div>
-              <div class="obar">
-                <div class="obh"><span class="obn">Outros</span><span class="obv"
-                    style="font-size:clamp(0.8rem,1.3vw,1rem);">15%</span></div>
-                <div class="obt">
-                  <div class="obf" style="width:15%;background:#6e2d58;"></div>
-                </div>
-              </div>
-            </div>
-            <div class="tline"></div>
-            <div class="blist">
-              <div class="bi">Treinamento dos operadores para inspecoes basicas</div>
-              <div class="bi">Analise tecnica aprofundada das falhas mecanicas</div>
-              <div class="bi">Procedimentos padrao para reduzir tempo de setup</div>
-              <div class="bi">Acompanhamento de indicadores pos-implantacao</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S21 VANTAGENS -->
-    <section class="slide" id="s21">
-      <div class="hdr"><span class="hdr-lbl">Resultados</span><span class="hdr-num">21 / 28</span></div>
-      <div class="inner">
-        <div class="lbl">Beneficios</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-sm);">Vantagens da TPM</h2>
-        <div class="agrid">
-          <div class="aitm">
-            <div class="aico">&#9881;</div>
-            <div class="atit">Maior Disponibilidade</div>
-            <div class="adsc">Equipamentos disponiveis por mais tempo para produzir com consistencia e qualidade.</div>
-          </div>
-          <div class="aitm">
-            <div class="aico">&#8595;</div>
-            <div class="atit">Menos Paradas</div>
-            <div class="adsc">Reducao significativa de paradas inesperadas e intervencoes emergenciais.</div>
-          </div>
-          <div class="aitm">
-            <div class="aico">&#36;</div>
-            <div class="atit">Reducao de Custos</div>
-            <div class="adsc">Menor custo de manutencao e menos desperdicio de material, energia e tempo.</div>
-          </div>
-          <div class="aitm">
-            <div class="aico">&#10003;</div>
-            <div class="atit">Melhor Qualidade</div>
-            <div class="adsc">Equipamentos bem mantidos produzem com mais precisao e consistencia de qualidade.</div>
-          </div>
-          <div class="aitm">
-            <div class="aico">&#9650;</div>
-            <div class="atit">Mais Seguranca</div>
-            <div class="adsc">Equipamentos adequados apresentam menor risco de acidentes e incidentes de trabalho.</div>
-          </div>
-          <div class="aitm">
-            <div class="aico">&#9733;</div>
-            <div class="atit">Desenvolvimento Humano</div>
-            <div class="adsc">Funcionarios mais capacitados e engajados com os resultados da empresa.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S22 DESAFIOS -->
-    <section class="slide" id="s22">
-      <div class="hdr"><span class="hdr-lbl">Obstaculos</span><span class="hdr-num">22 / 28</span></div>
-      <div class="inner">
-        <div class="chalay">
-          <div class="ctxt" style="gap:var(--sp-md);">
-            <div class="lbl">Atencao</div>
-            <h2 class="ttl">Desafios na<br>Implantacao</h2>
-            <div class="div"></div>
-            <p class="sub">A TPM deve ser implementada como uma <strong style="color:var(--text);">mudanca de sistema de
-                gestao</strong>, nao como um programa temporario ou iniciativa isolada.</p>
-          </div>
-          <div class="chalist">
-            <div class="chai">
-              <div class="chad"></div>
-              <div class="chat"><strong style="color:var(--text);">Resistencia a mudanca</strong> &mdash; Funcionarios
-                podem nao reconhecer as novas atividades como parte de suas responsabilidades.</div>
-            </div>
-            <div class="chai">
-              <div class="chad"></div>
-              <div class="chat"><strong style="color:var(--text);">Falta de treinamento</strong> &mdash; Manutencao
-                autonoma nao significa delegar reparos complexos ao operador.</div>
-            </div>
-            <div class="chai">
-              <div class="chad"></div>
-              <div class="chat"><strong style="color:var(--text);">Sem apoio da lideranca</strong> &mdash; Sem
-                comprometimento da gestao, a metodologia nao se sustenta a longo prazo.</div>
-            </div>
-            <div class="chai">
-              <div class="chad"></div>
-              <div class="chat"><strong style="color:var(--text);">Indicadores nao confiaveis</strong> &mdash; Sem dados
-                precisos, nao e possivel medir resultados ou direcionar melhorias.</div>
-            </div>
-            <div class="chai">
-              <div class="chad"></div>
-              <div class="chat"><strong style="color:var(--text);">Foco em resultados imediatos</strong> &mdash; TPM e
-                metodologia de longo prazo. Resultados consistentes levam tempo.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S23 PDCA -->
-    <section class="slide" id="s23">
-      <div class="hdr"><span class="hdr-lbl">Filosofia</span><span class="hdr-num">23 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="ctxt">
-            <div class="lbl">Melhoria Continua</div>
-            <h2 class="ttl">PDCA</h2>
-            <div class="div"></div>
-            <p class="sub">Apos cada reparo, a empresa deve perguntar: <strong style="color:var(--text);">&ldquo;Como
-                evitar que esse problema aconteca novamente?&rdquo;</strong></p>
-            <p class="sub" style="margin-top:var(--sp-sm);">O ciclo e repetido continuamente. O reparo resolve o
-              imediato; a melhoria previne a repeticao.</p>
           </div>
           <div class="pdgr">
             <div class="pdca">
               <div class="pdl">P</div>
-              <div class="pdw">Plan &mdash; Planejar</div>
-              <div class="pdd">Identificar o problema, analisar causas e definir acoes de melhoria concretas.</div>
+              <div class="pdw">Plan &bull; Planejar</div>
+              <div class="pdd">Identificar a perda, analisar dados históricos, descobrir a causa raiz e traçar plano de ação.</div>
             </div>
             <div class="pdca">
               <div class="pdl">D</div>
-              <div class="pdw">Do &mdash; Executar</div>
-              <div class="pdd">Implementar as acoes planejadas com a equipe treinada e engajada.</div>
+              <div class="pdw">Do &bull; Executar</div>
+              <div class="pdd">Implantar as modificações na máquina e treinar a equipe operacional no novo procedimento.</div>
             </div>
             <div class="pdca">
               <div class="pdl">C</div>
-              <div class="pdw">Check &mdash; Verificar</div>
-              <div class="pdd">Analisar os resultados obtidos e comparar com o esperado pelos indicadores.</div>
+              <div class="pdw">Check &bull; Verificar</div>
+              <div class="pdd">Acompanhar os indicadores de falha e comprovar se a causa foi realmente eliminada.</div>
             </div>
             <div class="pdca">
               <div class="pdl">A</div>
-              <div class="pdw">Act &mdash; Agir</div>
-              <div class="pdd">Padronizar o que funcionou ou reiniciar o ciclo com novos ajustes.</div>
+              <div class="pdw">Act &bull; Padronizar</div>
+              <div class="pdd">Consolidar o novo padrão operacional ou reiniciar o ciclo para novos ajustes se necessário.</div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- S24 TRADICIONAL VS TPM -->
-    <section class="slide" id="s24">
-      <div class="hdr"><span class="hdr-lbl">Comparacao</span><span class="hdr-num">24 / 28</span></div>
+    <!-- S08 AS 6 GRANDES PERDAS -->
+    <section class="slide" id="s8">
+      <div class="hdr"><span class="hdr-lbl">Diagnóstico Operacional</span><span class="hdr-num">08 / 12</span></div>
       <div class="inner">
-        <div class="lbl">Diferencas fundamentais</div>
-        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Tradicional vs. TPM</h2>
+        <div class="lbl">Origem dos Desperdícios</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">As 6 Grandes Perdas</h2>
+        <p class="sub" style="margin-bottom:var(--sp-xs);">A MPT categoriza as perdas industriais em três grupos essenciais para direcionar ações assertivas de bloqueio:</p>
+        <div class="lgrid">
+          <div class="lcard">
+            <div class="lnum">PERDA 01 &bull; DISPONIBILIDADE</div>
+            <div class="ltit">Quebras e Falhas</div>
+            <div class="ldsc">Paradas mecânicas, elétricas ou pneumáticas inesperadas que interrompem totalmente a produção.</div>
+          </div>
+          <div class="lcard">
+            <div class="lnum">PERDA 02 &bull; DISPONIBILIDADE</div>
+            <div class="ltit">Setup e Ajustes</div>
+            <div class="ldsc">Tempo gasto na troca de ferramentas, matrizes ou moldes e calibrações de início de lote.</div>
+          </div>
+          <div class="lcard">
+            <div class="lnum">PERDA 03 &bull; DESEMPENHO</div>
+            <div class="ltit">Pequenas Paradas</div>
+            <div class="ldsc">Microparadas constantes por sensores sujos, alimentação travada ou quedas pontuais de linha.</div>
+          </div>
+          <div class="lcard">
+            <div class="lnum">PERDA 04 &bull; DESEMPENHO</div>
+            <div class="ltit">Velocidade Reduzida</div>
+            <div class="ldsc">Equipamento operando abaixo da velocidade nominal de projeto por desgaste ou receio de quebra.</div>
+          </div>
+          <div class="lcard">
+            <div class="lnum">PERDA 05 &bull; QUALIDADE</div>
+            <div class="ltit">Defeitos e Retrabalho</div>
+            <div class="ldsc">Peças produzidas fora das tolerâncias que exigem conserto ou sucateamento, desperdiçando insumos.</div>
+          </div>
+          <div class="lcard">
+            <div class="lnum">PERDA 06 &bull; QUALIDADE</div>
+            <div class="ltit">Perdas de Startup</div>
+            <div class="ldsc">Peças refugadas durante o aquecimento, testes e estabilização da máquina no início do turno.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S09 OEE -->
+    <section class="slide" id="s9">
+      <div class="hdr"><span class="hdr-lbl">Indicador Principal</span><span class="hdr-num">09 / 12</span></div>
+      <div class="inner">
+        <div class="lbl">Métrica Global de Produtividade</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">OEE &mdash; Eficiência Global</h2>
+        <div class="ol2">
+          <div style="display:flex;flex-direction:column;justify-content:center;gap:clamp(0.4rem,1.2vh,0.85rem);">
+            <div class="formula">OEE = Disponibilidade<br>&times; Desempenho<br>&times; Qualidade</div>
+            <div class="ofact">
+              <div class="of">
+                <div class="ofl">Disponibilidade (D)</div>
+                <div class="ofd">Percentual do tempo programado em que a máquina esteve de fato produzindo.</div>
+                <div class="off">Tempo de Operação / Tempo Planejado</div>
+              </div>
+              <div class="tline" style="margin:0;"></div>
+              <div class="of">
+                <div class="ofl">Desempenho (P)</div>
+                <div class="ofd">Avalia se o equipamento produziu na velocidade máxima teórica projetada.</div>
+                <div class="off">Produção Real / Produção Teórica Esperada</div>
+              </div>
+              <div class="tline" style="margin:0;"></div>
+              <div class="of">
+                <div class="ofl">Qualidade (Q)</div>
+                <div class="ofd">Proporção de peças aprovadas de primeira sem requerer retrabalho ou descarte.</div>
+                <div class="off">Peças Aprovadas / Total Produzido</div>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;justify-content:center;gap:clamp(0.4rem,1.2vh,0.85rem);">
+            <div class="lbl">Simulação Real de Chão de Fábrica</div>
+            <div class="obars">
+              <div class="obar">
+                <div class="obh"><span class="obn">Disponibilidade</span><span class="obv">90%</span></div>
+                <div class="obt"><div class="obf" style="width:90%;"></div></div>
+              </div>
+              <div class="obar">
+                <div class="obh"><span class="obn">Desempenho</span><span class="obv">85%</span></div>
+                <div class="obt"><div class="obf" style="width:85%;background:var(--accent2);"></div></div>
+              </div>
+              <div class="obar">
+                <div class="obh"><span class="obn">Qualidade</span><span class="obv">95%</span></div>
+                <div class="obt"><div class="obf" style="width:95%;background:#2d6e58;"></div></div>
+              </div>
+            </div>
+            <div class="ores">
+              <div>
+                <div class="orl">OEE Consolidado</div>
+                <div class="body-sm" style="margin-top:4px;">0,90 &times; 0,85 &times; 0,95</div>
+              </div>
+              <div class="orv">72,7%</div>
+            </div>
+            <p class="body-sm" style="color:var(--muted);line-height:1.35;"><strong>Alerta técnico:</strong> Taxas individuais aparentemente boas podem esconder perdas compostas de quase 30% da capacidade total da linha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S10 TRADICIONAL VS MPT -->
+    <section class="slide" id="s10">
+      <div class="hdr"><span class="hdr-lbl">Transformação Cultural</span><span class="hdr-num">10 / 12</span></div>
+      <div class="inner">
+        <div class="lbl">Mudança de Paradigma</div>
+        <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Manutenção Tradicional vs. MPT</h2>
         <div class="ctbl">
           <div class="chdr">
-            <div class="chd">Manutencao Tradicional</div>
-            <div class="chd tpm">TPM</div>
+            <div class="chd">Manutenção Tradicional</div>
+            <div class="chd mpt">Filosofia MPT</div>
           </div>
           <div class="crow">
-            <div class="ccel">Maior foco em reparar falhas</div>
-            <div class="ccel hi">Foco em prevenir e eliminar perdas</div>
+            <div class="ccel">Mentalidade de "eu quebro a máquina, você conserta"</div>
+            <div class="ccel hi">Mentalidade de "todos nós cuidamos dos nossos ativos"</div>
           </div>
           <div class="crow">
-            <div class="ccel">Responsabilidade concentrada na manutencao</div>
-            <div class="ccel hi">Responsabilidade compartilhada entre setores</div>
+            <div class="ccel">Foco reativo: aguarda a falha acontecer para intervir</div>
+            <div class="ccel hi">Foco proativo: elimina as causas para impedir a falha</div>
           </div>
           <div class="crow">
-            <div class="ccel">Operador apenas opera o equipamento</div>
-            <div class="ccel hi">Operador participa da conservacao</div>
+            <div class="ccel">Responsabilidade restrita à equipe de manutenção</div>
+            <div class="ccel hi">Responsabilidade compartilhada entre operação e manutenção</div>
           </div>
           <div class="crow">
-            <div class="ccel">Acoes frequentemente reativas</div>
-            <div class="ccel hi">Acoes preventivas e proativas</div>
+            <div class="ccel">Operador atua apenas acionando comandos da máquina</div>
+            <div class="ccel hi">Operador capacitado que inspeciona e detecta anomalias</div>
           </div>
           <div class="crow">
-            <div class="ccel">Foco no equipamento isolado</div>
-            <div class="ccel hi">Foco no equipamento, processo e pessoas</div>
-          </div>
-          <div class="crow">
-            <div class="ccel">Correcao do sintoma do problema</div>
-            <div class="ccel hi">Busca e eliminacao da causa raiz</div>
+            <div class="ccel">Conserto emergencial do sintoma (troca imediata de peça)</div>
+            <div class="ccel hi">Investigação metódica da causa raiz para evitar reincidência</div>
           </div>
           <div class="crow" style="border-bottom:none;">
-            <div class="ccel">Manutencao como funcao de apoio</div>
-            <div class="ccel hi">Manutencao integrada a estrategia produtiva</div>
+            <div class="ccel">Vista como um centro de custo e despesa inevitável</div>
+            <div class="ccel hi">Vista como investimento estratégico em competitividade</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- S25 INDUSTRIA 4.0 -->
-    <section class="slide" id="s25">
-      <div class="hdr"><span class="hdr-lbl">Futuro</span><span class="hdr-num">25 / 28</span></div>
+    <!-- S11 INDÚSTRIA 4.0 -->
+    <section class="slide" id="s11">
+      <div class="hdr"><span class="hdr-lbl">Tecnologia & Futuro</span><span class="hdr-num">11 / 12</span></div>
       <div class="inner">
         <div class="i40l">
-          <div class="ctxt" style="gap:var(--sp-md);">
-            <div class="lbl">Convergencia</div>
-            <h2 class="ttl">TPM e<br>Industria 4.0</h2>
+          <div class="ctxt">
+            <div class="lbl">Manutenção Inteligente</div>
+            <h2 class="ttl">MPT e a<br>Indústria 4.0</h2>
             <div class="div"></div>
-            <p class="sub">Novas tecnologias ampliam a capacidade de monitoramento e analise, mas <strong
-                style="color:var(--text);">nao substituem os principios fundamentais da TPM</strong>.</p>
-            <p class="sub" style="margin-top:var(--sp-sm);">Um motor com sensores gera alertas automaticos, permitindo
-              intervencao antes da falha grave.</p>
-            <div class="i40tags" style="margin-top:var(--sp-xs);">
-              <div class="i40t">IoT</div>
-              <div class="i40t">Sensores inteligentes</div>
-              <div class="i40t">Monitoramento em tempo real</div>
-              <div class="i40t">Inteligencia Artificial</div>
-              <div class="i40t">Analise de Big Data</div>
-              <div class="i40t">Sistemas supervisorios</div>
-              <div class="i40t">Manutencao preditiva digital</div>
-              <div class="i40t">Digitalizacao de registros</div>
+            <p class="sub">A tecnologia digital potencializa a MPT, mas <strong>não substitui a disciplina humana</strong>. Sensores inteligentes e algoritmos transformam dados em ações preditivas rápidas e precisas.</p>
+            <div class="blist" style="margin-top:var(--sp-xs);">
+              <div class="bi"><strong>Sensores IoT:</strong> Medição contínua de temperatura, vibração e corrente</div>
+              <div class="bi"><strong>Manutenção Preditiva Digital:</strong> Alertas antes do travamento mecânico</div>
+              <div class="bi"><strong>Apontamento de OEE em tempo real:</strong> Tablets no posto de trabalho</div>
+              <div class="bi"><strong>Instruções de Trabalho Digitais:</strong> Lições Ponto a Ponto (LPP) interativas</div>
+            </div>
+            <div class="i40tags">
+              <div class="i40t">IoT Industrial</div>
+              <div class="i40t">Inteligência Artificial</div>
+              <div class="i40t">Sensores Inteligentes</div>
+              <div class="i40t">Gêmeos Digitais</div>
+              <div class="i40t">Big Data Analytics</div>
             </div>
           </div>
-          <div class="cimg"><img src="images/industry40.jpg" alt="Fabrica inteligente Industria 4.0" /></div>
+          <div class="cimg"><img src="images/industry40.jpg" alt="Fábrica inteligente e Indústria 4.0" /></div>
         </div>
       </div>
     </section>
 
-    <!-- S26 SEGURANCA FULL IMAGE -->
-    <section class="slide" id="s26">
-      <div class="hdr"><span class="hdr-lbl">Seguranca</span><span class="hdr-num">26 / 28</span></div>
-      <div class="fwrap">
-        <img src="images/safety.jpg" alt="Trabalhador industrial com EPI" />
-        <div class="fov"></div>
-        <div class="ftxt">
-          <div class="lbl">Seguranca e inegociavel</div>
-          <h2 class="ttl" style="margin-bottom:var(--sp-xs);">Manutencao<br>inadequada<br>cria risco</h2>
-          <div class="div"></div>
-          <div class="blist">
-            <div class="bi">Protecoes danificadas ou ausentes</div>
-            <div class="bi">Vazamentos e componentes soltos</div>
-            <div class="bi">Sistemas eletricos inadequados</div>
-            <div class="bi">Dispositivos de emergencia sem funcionamento</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S27 IMPACTO ESTRATEGICO -->
-    <section class="slide" id="s27">
-      <div class="hdr"><span class="hdr-lbl">Estrategia</span><span class="hdr-num">27 / 28</span></div>
-      <div class="inner">
-        <div class="l2col">
-          <div class="ctxt">
-            <div class="lbl">Competitividade</div>
-            <h2 class="ttl">Impacto<br>Estrategico</h2>
-            <div class="div"></div>
-            <p class="sub">Uma maquina parada representa muito mais do que um custo de reparo. E uma <strong
-                style="color:var(--text);">cadeia de consequencias</strong> que afeta a competitividade da empresa
-              inteira.</p>
-          </div>
-          <div class="ctxt">
-            <div class="lbl" style="margin-bottom:var(--sp-sm);">Consequencias em cascata de uma parada</div>
-            <div class="blist">
-              <div class="bi">Perda direta de producao e receita</div>
-              <div class="bi">Atraso na entrega ao cliente</div>
-              <div class="bi">Custo de manutencao emergencial elevado</div>
-              <div class="bi">Perda de materia-prima em processo</div>
-              <div class="bi">Necessidade de horas extras nao planejadas</div>
-              <div class="bi">Insatisfacao e perda de clientes</div>
-              <div class="bi">Reducao da capacidade produtiva total</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- S28 CONCLUSAO -->
-    <section class="slide" id="s28">
+    <!-- S12 CONCLUSÃO -->
+    <section class="slide" id="s12">
       <div class="clos">
         <div class="clol">
           <div>
-            <div class="lbl">Conclusao</div>
-            <h2 class="ttl" style="font-size:clamp(2.2rem,5.5vw,5rem);margin-top:var(--sp-sm);">TPM:<br>filosofia<br>de
-              gestao</h2>
+            <div class="lbl">Síntese Final</div>
+            <h2 class="ttl" style="font-size:clamp(2.2rem,5.5vw,4.5rem);margin-top:var(--sp-xs);">MPT: Cultura de Excelência</h2>
           </div>
           <div class="div"></div>
-          <p class="sub" style="max-width:40ch;">A TPM transforma a manutencao de atividade predominantemente corretiva
-            em pratica integrada a gestao da producao. Exige planejamento, treinamento e comprometimento de toda a
-            organizacao.</p>
+          <p class="sub" style="max-width:44ch;">A Manutenção Produtiva Total não é um projeto passageiro, mas um <strong>modelo permanente de gestão</strong> que une disciplina técnica, respeito aos ativos e valorização das pessoas.</p>
           <div>
-            <div class="lbl" style="margin-bottom:var(--sp-sm);">Os 8 Pilares</div>
-            <div class="pmini">
-              <div class="pr">
-                <div class="pd"></div>Manutencao Autonoma
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Manutencao Planejada
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Melhoria Especifica
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Educacao e Treinamento
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Controle Inicial
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Manutencao da Qualidade
-              </div>
-              <div class="pr">
-                <div class="pd"></div>TPM Administrativo
-              </div>
-              <div class="pr">
-                <div class="pd"></div>Seguranca, Saude e Meio Ambiente
-              </div>
+            <div class="lbl" style="margin-bottom:var(--sp-xs);">Fatores Críticos de Sucesso</div>
+            <div class="blist">
+              <div class="bi"><strong>Liderança Engajada:</strong> Apoio ativo e prioridade estratégica da direção</div>
+              <div class="bi"><strong>Capacitação Contínua:</strong> Treinar e confiar no operador do chão de fábrica</div>
+              <div class="bi"><strong>Padronização Rigorosa:</strong> Disciplina no cumprimento de rotinas e do 5S</div>
+              <div class="bi"><strong>Decisões Baseadas em Dados:</strong> Gestão visual com OEE, MTBF e MTTR</div>
             </div>
           </div>
         </div>
         <div class="clor">
-          <img src="images/cover.jpg" alt="Fabrica industrial" />
+          <img src="images/quality.jpg" alt="Inspeção técnica e qualidade industrial" />
         </div>
       </div>
     </section>
 
   </div><!-- /pres -->
 
-  <nav class="nav" id="nav" aria-label="Navegacao dos slides">
+  <nav class="nav" id="nav" aria-label="Navegação dos slides">
     <button class="nbtn" id="bp" title="Anterior (seta esq.)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
         stroke-linejoin="round">
@@ -1029,8 +489,8 @@
       </svg>
     </button>
     <div class="ndots" id="nd" role="tablist" aria-label="Slides"></div>
-    <span class="nctr" id="nc" aria-live="polite">1 / 28</span>
-    <button class="nbtn" id="bn" title="Proximo (seta dir.)">
+    <span class="nctr" id="nc" aria-live="polite">1 / 12</span>
+    <button class="nbtn" id="bn" title="Próximo (seta dir.)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
         stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>

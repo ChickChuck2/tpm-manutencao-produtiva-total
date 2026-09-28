@@ -1,5 +1,5 @@
 /* =================================================================
-   TPM PRESENTATION - Navigation Engine
+   MPT PRESENTATION - Navigation Engine
 ================================================================= */
 (function () {
   "use strict";
@@ -12,15 +12,18 @@
   var nd     = document.getElementById("nd");
 
   /* Build dots */
-  slides.forEach(function (_, i) {
-    var d = document.createElement("button");
-    d.className = "ndot" + (i === 0 ? " active" : "");
-    d.setAttribute("aria-label", "Slide " + (i + 1));
-    d.addEventListener("click", function () { go(i); });
-    nd.appendChild(d);
-  });
+  if (nd) {
+    slides.forEach(function (_, i) {
+      var d = document.createElement("button");
+      d.className = "ndot" + (i === 0 ? " active" : "");
+      d.setAttribute("aria-label", "Slide " + (i + 1));
+      d.addEventListener("click", function () { go(i); });
+      nd.appendChild(d);
+    });
+  }
 
   function updateDots() {
+    if (!nd) return;
     nd.querySelectorAll(".ndot").forEach(function (d, i) {
       d.classList.toggle("active", i === cur);
     });
@@ -34,7 +37,13 @@
     var prev = cur;
     cur = idx;
     slides[cur].classList.add("active");
-    nc.textContent = (cur + 1) + " / " + total;
+    if (nc) nc.textContent = (cur + 1) + " / " + total;
+    var hdrNum = slides[cur].querySelector(".hdr-num");
+    if (hdrNum) {
+      var padCur = (cur + 1) < 10 ? "0" + (cur + 1) : (cur + 1);
+      var padTot = total < 10 ? "0" + total : total;
+      hdrNum.textContent = padCur + " / " + padTot;
+    }
     updateDots();
     setTimeout(function () {
       slides[prev].classList.remove("exit");
@@ -43,8 +52,10 @@
   }
 
   /* Buttons */
-  document.getElementById("bp").addEventListener("click", function () { go(cur - 1); });
-  document.getElementById("bn").addEventListener("click", function () { go(cur + 1); });
+  var bp = document.getElementById("bp");
+  var bn = document.getElementById("bn");
+  if (bp) bp.addEventListener("click", function () { go(cur - 1); });
+  if (bn) bn.addEventListener("click", function () { go(cur + 1); });
 
   /* Keyboard */
   document.addEventListener("keydown", function (e) {
